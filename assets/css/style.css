@@ -11,7 +11,7 @@ footer {
 
 /* Genral     END*/
 
-/* Nav bar */
+/* Genral nav bar */
 
 #nav-title{
   margin: 5px;
@@ -19,9 +19,13 @@ footer {
   font-size: 3.5em;
 }
 
+.container-fluid{
+  padding: 0px;
+}
+
 .nav-row{
   flex-direction: column;
-  align-items: stretch
+  align-items: stretch;
 }
 
 .nav-bar{
@@ -44,7 +48,96 @@ footer {
   align-content: center;
 }
 
-/* Nav bar      END*/
+/* Genral nav bar      END*/
+
+/* Tablet nav bar */
+
+#nav-title-tablet{
+  margin: 5px;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+#nav-signup-tablet{
+  margin-top: 28px;
+}
+
+.logo-tablet{
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nav-link-tablet{
+  background-color: red;
+  width: 40px;
+  height: 50px;
+  padding: 10px;
+  margin: 3px;
+  border: solid 1px black;
+  align-content: center;
+  font-size: 0.75em;
+}
+
+.nav-item-tablet{
+  margin-top: 28px;
+}
+
+.nav-bar-tablet{
+  height: 90px;
+}
+
+/* Tablet nav bar     END */
+
+/* Mobile nav bar */
+
+#nav-center-mobile{
+  justify-content: space-evenly;
+}
+
+.nav-border-mobile{
+  height: 50px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+
+.logo-mobile{
+  width: 60px;
+  border-radius: 50%;
+}
+
+.nav-link-mobile{
+  background-color: red;
+  width: 40px;
+  height: 50px;
+  padding: 8px;
+  margin: 2.5px;
+  border: solid 1px black;
+  font-size: 0.7em;
+}
+
+.nav-item-mobile{
+  margin-top: 15px;
+}
+
+/* Mobile nav bar     END */
+
+/* Small mobile nav bar  */
+
+#nav-center-s-mobile{
+  justify-content: space-evenly;
+}
+
+.nav-link-s-mobile{
+  background-color: red;
+  width: 40px;
+  height: 50px;
+  padding: 8px;
+  margin: 2.5px;
+  border: solid 1px black;
+  font-size: 0.45em;
+}
+
+/* Small mobile nav bar     END */
 
 /* Pc recomadations */
 
@@ -100,3 +193,71 @@ footer {
 }
 
 /* Footer       END */
+
+/* Breakpoints */
+
+/* Extra small devices*/
+
+/* @media screen and (max-width: 319px){}
+@media screen and (min-width: 319px){} */
+
+/* Extra small devices    END*/
+
+/* Small devices (mobile) */
+
+@media screen and (max-width: 424px){
+  .nav-mobile{
+    display: none;
+  }
+}
+@media screen and (min-width: 424px){
+  .nav-s-moblile{
+    display: none;
+  }
+}
+
+/* Small devices (mobile)     END*/
+
+/* Medium devices (tablet) */
+
+@media screen and (max-width: 767px){
+  .nav-tablet{
+    display: none;
+  }
+}
+@media screen and (min-width: 767px){
+  .nav-mobile{
+    display: none;
+  }
+}
+
+
+/* Medium devices (tablet)     END*/
+
+/* Large devices (laptop) */
+
+@media screen and (max-width: 1023px){
+
+}
+@media screen and (min-width: 1023px){
+
+}
+
+/* Large devices (laptop)     END*/
+
+/* Extra large devices (desktop) */
+
+@media screen and (max-width: 1439px){
+  .nav-desktop{
+    display: none;
+  }
+}
+@media screen and (min-width: 1439px){
+  .nav-tablet{
+    display: none;
+  }
+}
+
+/* Extra large devices (desktop)    END*/
+
+/* Breakpoints       END */

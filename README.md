@@ -121,6 +121,14 @@ Additions:
 - Added top PC section
 - Added social media section
 
+### 6.4 Working breakpoints on Nav-bar
+
+Additions:
+
+- Nav-bar Tablet working breakpoints
+- Nav-bar Mobile working breakpoints
+- Nav-bar small mobile working breakpoints
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
