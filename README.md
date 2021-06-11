@@ -113,6 +113,14 @@ Additions:
 - Added documentation
 - Updated wireframes
 
+### 6.3 Home page basic outline
+
+Additions:
+
+- Added carousel (not functional)
+- Added top PC section
+- Added social media section
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
