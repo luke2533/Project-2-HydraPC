@@ -181,7 +181,7 @@ footer {
 
 /* Social media     END*/
 
-/* Footer */
+/* Desktop footer */
 
 .footer-col{
   margin-top: 30px;
@@ -192,7 +192,27 @@ footer {
   font-size: 2.5em;
 }
 
-/* Footer       END */
+/* Desktop footer       END */
+
+/* Tablet footer */
+
+.footer-icon-tablet{
+  padding: 10px;
+  font-size: 2em;
+}
+
+
+/* Tablet footer      END */
+
+/* Mobile footer */
+
+.footer-icon-mobile{
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+
+/* Mobile footer    END */
 
 /* Breakpoints */
 
@@ -224,9 +244,16 @@ footer {
   .nav-tablet{
     display: none;
   }
+  .footer-tablet{
+    display: none;
+  }
+
 }
 @media screen and (min-width: 767px){
   .nav-mobile{
+    display: none;
+  }
+  .footer-mobile{
     display: none;
   }
 }
@@ -251,9 +278,15 @@ footer {
   .nav-desktop{
     display: none;
   }
+  .footer-desktop{
+    display: none;
+  }
 }
 @media screen and (min-width: 1439px){
   .nav-tablet{
+    display: none;
+  }
+  .footer-tablet{
     display: none;
   }
 }

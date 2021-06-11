@@ -121,13 +121,23 @@ Additions:
 - Added top PC section
 - Added social media section
 
-### 6.4 Working breakpoints on Nav-bar
+### 6.4 Responsive breakpoints on Nav-bar
 
 Additions:
 
-- Nav-bar Tablet working breakpoints
-- Nav-bar Mobile working breakpoints
-- Nav-bar small mobile working breakpoints
+- Nav-bar desktop responsive breakpoints
+- Nav-bar Tablet responsive breakpoints
+- Nav-bar Mobile responsive breakpoints
+- Nav-bar small mobile responsive breakpoints
+
+### 6.5 Responsive breakpoints on footer
+
+Additions:
+
+- Footer desktop responsive breakpoints
+- Footer Tablet responsive breakpoints
+- Footer Mobile responsive breakpoints
+
 
 ## 7.0 Deployment
 
