@@ -201,6 +201,27 @@ footer {
 
 /* Pre built PC's    END */
 
+/* Build PC tracker */
+
+.pc-tracker{
+  border: solid 1px black;
+  justify-content: flex-start;
+}
+
+.spec-tracker{
+
+}
+
+.btn-tracker{
+
+}
+
+/* Build PC tracker    END */
+
+/* PC part picker  */
+
+/* PC part picker    END */
+
 /* Contact Us  */
 
 .contact-box{
@@ -224,6 +245,10 @@ footer {
 }
 
 /* Create account    END */
+
+/* Checkout */
+
+/* Checkout   END */
 
 /* Desktop footer */
 

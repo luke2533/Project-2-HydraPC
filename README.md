@@ -146,6 +146,13 @@ Additions:
 - Basic HTML for Contact us page
 - Basic HTML for Create account page
 
+### 6.7 Basic HTML for Custom PC and checkout
+
+Additions:
+
+- Basic HTML for Custom PC page
+- Basic HTML for Checkout page
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
