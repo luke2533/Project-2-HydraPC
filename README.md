@@ -138,6 +138,13 @@ Additions:
 - Footer Tablet responsive breakpoints
 - Footer Mobile responsive breakpoints
 
+### 6.6 Basic HTML for Pre built PC's, contact us and create account
+
+Additions:
+
+- Basic HTML for Pre-built PC's page
+- Basic HTML for Contact us page
+- Basic HTML for Create account page
 
 ## 7.0 Deployment
 

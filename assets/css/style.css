@@ -179,7 +179,51 @@ footer {
   font-size: 2.5em;
 }
 
-/* Social media     END*/
+/* Social media     END */
+
+/* Find your PC collapseable questionaire  */
+
+.btn-collapse{
+
+}
+
+/* Find your PC collapseable questionaire    END */
+
+/* Pre built PC's */
+
+.pre-built{
+  background-color: black;
+}
+
+.pre-pc-img{
+  height: 400px;
+}
+
+/* Pre built PC's    END */
+
+/* Contact Us  */
+
+.contact-box{
+  border: solid 1px black;
+}
+
+/* Contact Us    END */
+
+/* Create account */
+
+.account-form{
+  background-color: lightgrey;
+  border: solid 1px black;
+  height: 800px;
+  width: 1000px;
+  padding: 250px;
+}
+
+.account{
+
+}
+
+/* Create account    END */
 
 /* Desktop footer */
 
