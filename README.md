@@ -153,6 +153,15 @@ Additions:
 - Basic HTML for Custom PC page
 - Basic HTML for Checkout page
 
+### 6.8 Wireframes, collapse.js, pc images and dictionaries for pre built pc's
+
+Additions:
+
+- Added images for pre built pc cards
+- Added Wireframes
+- collapse.js added but not yet functional
+- pre-built-pc.js added dictionaries for all 18 pcs
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
