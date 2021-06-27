@@ -162,6 +162,16 @@ Additions:
 - collapse.js added but not yet functional
 - pre-built-pc.js added dictionaries for all 18 pcs
 
+### 6.9 FPC Collapse button works, test.md added, fixes to image sizing
+
+Additions:
+
+- FPC Collapsible button works
+- Test.md file added
+- Fix to image sizing on FPC cards
+
+Issues - FPC images don't resize correctly on tablets or smaller devices
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

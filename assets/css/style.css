@@ -184,8 +184,12 @@ footer {
 /* Find your PC collapseable questionaire  */
 
 .btn-collapse{
-
+  border: solid 1px black;
+  padding: 5px;
+  background-color: grey;
 }
+
+
 
 /* Find your PC collapseable questionaire    END */
 
@@ -197,6 +201,7 @@ footer {
 
 .pre-pc-img{
   height: 400px;
+  width: 400px;
 }
 
 /* Pre built PC's    END */
