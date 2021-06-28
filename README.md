@@ -172,6 +172,15 @@ Additions:
 
 Issues - FPC images don't resize correctly on tablets or smaller devices
 
+### 6.10 Responsive parent object and pre built PC card info displayed
+
+Additions:
+
+- Added parent object to pre built PC's
+- The correct information for the PC's is displayed
+
+Issues - The pre built PC cards have commas from the objects which need to be removed
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

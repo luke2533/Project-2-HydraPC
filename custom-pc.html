@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Build your PC</title>
   </head>
 
@@ -190,102 +191,133 @@
 
 <!-- PC part picker  -->
       <div id="accordion">
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseCase" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your case - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse show" id="collapseCase" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
+
+<!--                              ADD ROWS FOR PC CARDS :)      and remember to add ARIA                       -->
+
 <!-- CASE -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseCpu" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your CPU - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseCpu" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- CPU -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseGpu" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your GPU - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseGpu" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- GPU -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseMotherboard" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your Motherboard - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseMotherboard" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- MOTHERBOARD -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseRam" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your RAM - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseRam" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- RAM -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapsePcu" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your PCU - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapsePcu" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- PCU -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseSsd" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your SSD - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseSsd" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- SSD -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseM2" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your M.2 - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseM2" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- M.2 -->
-        <p>
-          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <div class="card">
+          <button class="btn btn-primary btn-collapse" type="button" data-toggle="collapse" data-target="#collapseHdd" aria-expanded="false" aria-controls="collapseExample">
             <h2>Pick your HDD - </h2>
           </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
 
+          <div class="collapse" id="collapseHdd" data-parent="#accordion">
+            <div class="card-body">
+              <div class="???">
+                <div class="pc-card"></div>
+              </div>
+            </div>
           </div>
         </div>
 <!-- HDD -->

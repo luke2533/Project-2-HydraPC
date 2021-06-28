@@ -189,6 +189,15 @@ footer {
   background-color: grey;
 }
 
+.question{
+  border: solid 1px black;
+  padding: 10px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
 
 
 /* Find your PC collapseable questionaire    END */
