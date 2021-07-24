@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;700&family=Orbitron:wght@400;700&display=swap');
 /* Genral */
 
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  color: #20FC8F;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+}
+
 nav {
-  background-color: lightblue;
+  background-color: #275DAD;
 }
 
 footer {
@@ -147,13 +159,14 @@ footer {
 }
 
 .pc-card{
-  background-color: lightgrey;
-  border: solid 1px black;
+  background-color: grey;
+  border: solid 3px black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 5px;
   margin: 5px;
+
 }
 
 .top-pcs{
@@ -186,7 +199,8 @@ footer {
 .btn-collapse{
   border: solid 1px black;
   padding: 5px;
-  background-color: grey;
+  background-color: #20FC8F;
+
 }
 
 .question{
@@ -196,16 +210,21 @@ footer {
   display: flex;
   justify-content: flex-start;
   margin: 10px;
+  background-color: white;
 }
 
+.card-body{
+  background-color: #275DAD;
+}
 
+/* Add some other pc cards class for other pages */
 
 /* Find your PC collapseable questionaire    END */
 
 /* Pre built PC's */
 
 .pre-built{
-  background-color: black;
+  background-color: ;
 }
 
 .pre-pc-img{

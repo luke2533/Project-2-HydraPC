@@ -1,9 +1,10 @@
+
 const prePC = {
   prePC1 : {
     name:"<h4>CODMW RYZEN GAMING PC</h4>",
     case:"<p>Lian Li Lancool-215</p>",
-    cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
-    gpu:"<p>RTX 3060 12GB</p>",
+    cpuSpec:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
+    gpuSpec:"<p>RTX 3060 12GB</p>",
     motherboard:"<p>ASUS A320M-K</p>",
     ram:"<p>16GB DDR4/3200mhz</p>",
     pcu:"<p>InWin A55 550W 80+</p>",
@@ -11,13 +12,17 @@ const prePC = {
     m2:"<p>N/A</p>",
     hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
     price:"<p>£1,279.20</p>",
-    settings:"<p>Medium</p>"
+    budget:"2",
+    gpu:"4",
+    cpu:"7",
+    setting:"9"
   },
+
   prePC2 : {
     name:"<h4>ULTRA 53 GTX PC SY1410</h4>",
     case:"<p>Corsair 220T</p>",
-    cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
-    gpu:"<p>GTX 1660 SUPER 6GB</p>",
+    cpuSpec:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
+    gpuSpec:"<p>GTX 1660 SUPER 6GB</p>",
     motherboard:"<p>MSI B450M PRO-VDH MAX</p>",
     ram:"<p>16GB DDR4/3200mhz</p>",
     pcu:"<p>InWin A45 450W 80+</p>",
@@ -25,7 +30,10 @@ const prePC = {
     m2:"<p>N/A</p>",
     hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
     price:"<p>£1,099.00</p>",
-    settings:"<p>Low</p>"
+    budget:"1",
+    gpu:"4",
+    cpu:"7",
+    setting:"8"
   },
   prePC3 : {
     name:"<h4>ULTRA R59 GAMING PC</h4>",
@@ -254,6 +262,8 @@ const prePC = {
 }
 
 
+// document.getElementById("prePC1").innerHTML = document.write(prePC.prePC1);
+
 document.getElementById("prePC1").innerHTML = Object.values(prePC.prePC1);
 document.getElementById("prePC2").innerHTML = Object.values(prePC.prePC2);
 document.getElementById("prePC3").innerHTML = Object.values(prePC.prePC3);
@@ -277,3 +287,5 @@ document.getElementById("prePC15").innerHTML = Object.values(prePC.prePC15);
 document.getElementById("prePC16").innerHTML = Object.values(prePC.prePC16);
 document.getElementById("prePC17").innerHTML = Object.values(prePC.prePC17);
 document.getElementById("prePC18").innerHTML = Object.values(prePC.prePC18);
+
+// module.exports={prePC};

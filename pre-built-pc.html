@@ -168,7 +168,7 @@
 <!-- Find your PC Collapsable questionnaire -->
 
       <button class="btn btn-collapse" type="button" data-toggle="collapse" data-target="#fpc-collapse">
-        <h2>Need help finding a PC for you click here - </h2>
+        <h2>Need help finding a PC for you click here -  </h2>
       </button>
 
       <div id="fpc-collapse" class="collapse">
@@ -178,19 +178,24 @@
               <div class="col-4 question">
                 <form>
                   <h3>What is your budget?</h3>
-                  <input type="radio">£800 - £1199</input>
+                  <input type="radio" name="budget" value="1"></input>
+                  <label>£800 - £1199</label>
                   <br>
-                  <input type="radio">£1200 - £1599</input>
+                  <input type="radio" name="budget" value="2"></input>
+                  <label>£1200 - £1599</label>
                   <br>
-                  <input type="radio">£1600 - £2000+</input>
+                  <input type="radio" name="budget" value="3"></input>
+                  <label>£1600 - £2000+</label>
                 </form>
               </div>
               <div class="col-4 question">
                 <form>
                   <h3>Preferred GPU?</h3>
-                  <input type="radio">Nvidia</input>
+                  <input type="radio" name="gpu" value="4"></input>
+                  <label>Nvidia</label>
                   <br>
-                  <input type="radio">AMD</input>
+                  <input type="radio" name="gpu" value="5"></input>
+                  <label>AMD</label>
                 </form>
               </div>
             </div>
@@ -201,19 +206,24 @@
               <div class="col-4 question">
                 <form>
                   <h3>Preferred CPU?</h3>
-                  <input type="radio">Intel</input>
+                  <input type="radio" name="cpu" value="6"></input>
+                  <label>Intel</label>
                   <br>
-                  <input type="radio">AMD</input>
+                  <input type="radio" name="cpu" value="7"></input>
+                  <label>AMD</label>
                 </form>
               </div>
               <div class="col-4 question">
                 <form>
                   <h3>What settings do you want?</h3>
-                  <input type="radio">Medium</input>
+                  <input type="radio" name="setting" value="8"></input>
+                  <label>Medium</label>
                   <br>
-                  <input type="radio">High</input>
+                  <input type="radio" name="setting" value="9"></input>
+                  <label>High</label>
                   <br>
-                  <input type="radio">Ultra</input>
+                  <input type="radio" name="setting" value="10"></input>
+                  <label>Ultra</label>
                 </form>
               </div>
             </div>
@@ -231,125 +241,126 @@
 
       <div class="container-fluid">
         <div class="row justify-content-center pre-built">
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc1">
             <img src="assets/images/prepc/lian-215.jpg" alt="#" class="pre-pc-img">
             <span id="prePC1"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc2">
             <img src="assets/images/prepc/corsair-220t.jpg" alt="#" class="pre-pc-img">
             <span id="prePC2"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc3">
             <img src="assets/images/prepc/corsair-4000d.jpg" alt="#" class="pre-pc-img">
             <span id="prePC3"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
         </div>
 
         <div class="row justify-content-center pre-built">
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc4">
             <img src="assets/images/prepc/lian-215.jpg" alt="#" class="pre-pc-img">
             <span id="prePC4"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc5">
             <img src="assets/images/prepc/lian-215.jpg" alt="#" class="pre-pc-img">
             <span id="prePC5"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc6">
             <img src="assets/images/prepc/msi-vamp-010.jpg" alt="#" class="pre-pc-img">
             <span id="prePC6"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
         </div>
 
         <div class="row justify-content-center pre-built">
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc7#">
             <img src="assets/images/prepc/nzxt-h710.jpg" alt="#" class="pre-pc-img">
             <span id="prePC7"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc8">
             <img src="assets/images/prepc/msi-vamp-100r.jpg" alt="#" class="pre-pc-img">
             <span id="prePC8"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc9">
             <img src="assets/images/prepc/msi-forge-100r.jpg" alt="#" class="pre-pc-img">
             <span id="prePC9"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
         </div>
 
         <div class="row justify-content-center pre-built">
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc10">
             <img src="assets/images/prepc/corsair-500d.jpg" alt="#" class="pre-pc-img">
             <span id="prePC10"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc11">
             <img src="assets/images/prepc/corsair-175r.jpg" alt="#" class="pre-pc-img">
             <span id="prePC11"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc12">
             <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="#" class="pre-pc-img">
             <span id="prePC12"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
         </div>
 
         <div class="row justify-content-center pre-built">
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc13">
             <img src="assets/images/prepc/cyberpower-pc-008.jpg" alt="#" class="pre-pc-img">
             <span id="prePC13"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc14">
             <img src="assets/images/prepc/phanteks-p400.jpg" alt="#" class="pre-pc-img">
             <span id="prePC14"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
 
-          <div class="col-3 pc-card">
+          <div class="col-3 pc-card" id="Pc15">
             <img src="assets/images/prepc/kolink-castle.jpg" alt="#" class="pre-pc-img">
             <span id="prePC15"></span>
-            <button onclick="???">Buy now</button>
+            <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
           </div>
+        </div>
 
           <div class="row justify-content-center pre-built">
-            <div class="col-3 pc-card">
+            <div class="col-3 pc-card" id="Pc16">
               <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="#" class="pre-pc-img">
               <span id="prePC16"></span>
-              <button onclick="???">Buy now</button>
+              <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
             </div>
 
-            <div class="col-3 pc-card">
+            <div class="col-3 pc-card" id="Pc17">
               <img src="assets/images/prepc/corsair-4000d.jpg" alt="#" class="pre-pc-img">
               <span id="prePC17"></span>
-              <button onclick="???">Buy now</button>
+              <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
             </div>
 
-            <div class="col-3 pc-card">
+            <div class="col-3 pc-card" id="Pc18">
               <img src="assets/images/prepc/corsair-5000x.jpg" alt="#" class="pre-pc-img">
               <span id="prePC18"></span>
-              <button onclick="???">Buy now</button>
+              <button type="button" onclick="window.location.href='checkout.html'">Buy now</button>
             </div>
 
       </div>
-
+    </div>
       <!-- Pre-built PC    END -->
 
     </section>
@@ -441,5 +452,6 @@
     </footer>
     <script src="assets/js/pre-built-pc.js"></script>
     <script src="assets/js/fpc-collapse.js"></script>
+    <script src="assets/js/find-pc.js"></script>
   </body>
 </html>
