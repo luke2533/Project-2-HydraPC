@@ -157,16 +157,21 @@
 
         <div class="container-fluid">
           <div class="custom-sidebar">
-            <h3>Build your custom PC</h3>
-            <div class="spec-tracker">
-              (This is where the specs should display)
+            <div class="row justify-content-center">
+              <h3>Build your custom PC</h3>
+              <div class="spec-tracker">
+                <span id="customPc"></span>
+              </div>
+              <div class="price-tracker">
+                (This is where the Total price goes)
+              </div>
             </div>
-            <div>
-              (This is where the Total price goes)
+
+            <div class="row justify-content-center">
+              <button type="button" onclick="savePc()" class="btn-tracker">Save</button>
+              <button type="button" onclick="window.location.href='checkout.html'" class="btn-tracker">Checkout</button>
+              <button type="button" onclick="window.location.href=''" class="btn-tracker">Collapse all</button>
             </div>
-            <button class="btn-tracker">Save</button>
-            <button class="btn-tracker">Checkout</button>
-            <button class="btn-tracker">Collapse all</button>
           </div>
         </div>
         <!-- NEEDS TO FOLLOW THE PAGE WHEN SCROLLED UP OR DOWN -->
@@ -893,5 +898,8 @@
     </footer>
 
   <script src="assets/js/bpc-collapse.js"></script>
+  <script src="assets/js/bpc-custom-pc.js"></script>
+  <script src="assets/js/bpc-price-tracker.js"></script>
+  <script src="assets/js/bpc-save.js"></script>
   </body>
 </html>

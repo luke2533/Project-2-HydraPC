@@ -4,7 +4,7 @@
 h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
-  color: #20FC8F;
+  color: #275DAD;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-  background-color: #275DAD;
+  background-color: #E6E6E6;
 }
 
 footer {
@@ -243,25 +243,38 @@ footer {
 
 .custom-sidebar{
   height: 100%;
-  width: 15%;
+  width: 20%;
   position: fixed;
   top: -20;
   left: 0;
   padding-top: 40px;
-  background: green;
-}
-
-.pc-tracker{
-  border: solid 1px black;
-  justify-content: flex-start;
+  padding: 5px;
+  background: #E6E6E6;
+  border: solid 3px black;
 }
 
 .spec-tracker{
+  border: solid 1px black;
+  background-color: grey;
+  height: 500px;
+  width: 300px;
+  padding: 5px;
+  font-size: 12px;
+}
 
+.price-tracker{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 300px;
+  border: solid 1px black;
+  background-color: grey;
 }
 
 .btn-tracker{
-
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
 }
 
 /* Build PC tracker    END */
@@ -269,7 +282,7 @@ footer {
 /* PC part picker  */
 
 .build-pc{
-  width: 85%;
+  width: 80%;
   margin-right: 0px;
 }
 

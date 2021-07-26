@@ -11,7 +11,7 @@ const prePC = {
       ssd:"<p>ADATA 240 GB 520MB/s Read / 450MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,279.20</p>",
+      price:"<p>£1,279.20</p>"
     },
     prePC2 : {
       name:"<h4>ULTRA 53 GTX PC SY1410</h4>",
@@ -24,7 +24,7 @@ const prePC = {
       ssd:"<p>240GB Kingston A400 500MB/s Read / 350MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,099.00</p>",
+      price:"<p>£1,099.00</p>"
     },
     prePC3 : {
       name:"<h4>ULTRA R59 GAMING PC</h4>",
@@ -37,8 +37,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>1TB WD Blue SN550 2400MB/s Read / 1950MB/s Write</p>",
       hdd:"<p>N/A</p>",
-      price:"<p>£2,675.00</p>",
-      settings:"<p>High</p>"
+      price:"<p>£2,675.00</p>"
+
     },
     prePC4 : {
       name:"<h4>ULTRA R57 ELITE GAMING PC</h4>",
@@ -51,8 +51,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>500GB WD Blue SN550 2400MB/s Read / 1750MB/s Write</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,789.20</p>",
-      settings:"<p>Medium</p>"
+      price:"<p>£1,789.20</p>"
+
     },
     prePC5 : {
       name:"<h4>INFINITY X115 GAMING PC</h4>",
@@ -65,8 +65,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>250GB WD Blue SM550 2400MB/s Read / 950MB/s Write</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,299.60</p>",
-      settings:"<p>Medium</p>"
+      price:"<p>£1,299.60</p>"
+
     },
     prePC6 : {
       name:"<h4>ULTRA R35 ELITE GAMING PC</h4>",
@@ -79,8 +79,8 @@ const prePC = {
       ssd:"<p>ADATA 240 GB 520MB/s Read / 450MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,335.60</p>",
-      settings:"<p>Medium</p>"
+      price:"<p>£1,335.60</p>"
+
     },
     prePC7 : {
       name:"<h4>Reign Vanguard Extreme MKII</h4>",
@@ -93,8 +93,8 @@ const prePC = {
       ssd:"<p>2TB WD Blue SN550 2600MB/s Read / 1800MB/s Write</p>",
       m2:"<p>500GB WD Blue SN850 7000MB/s Read / 4100MB/s Write</p>",
       hdd:"<p>N/A</p>",
-      price:"<p>£3,999.00</p>",
-      settings:"<p>High</p>"
+      price:"<p>£3,999.00</p>"
+
     },
     prePC8 : {
       name:"<h4>Reign Scout Pro</h4>",
@@ -107,8 +107,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>250GB WD Blue SM550 2400MB/s Read / 950MB/s Write</p>",
       hdd:"<p>1TB WD Blue</p>",
-      price:"<p>£749.00</p>",
-      settings:"<p>Low</p>"
+      price:"<p>£749.00</p>"
+
     },
     prePC9 : {
       name:"<h4>Reign Scout Ice</h4>",
@@ -121,8 +121,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>250GB WD Blue SM550 2400MB/s Read / 950MB/s Write</p>",
       hdd:"<p>2TB WD Blue</p>",
-      price:"<p>£1,229.00</p>",
-      settings:"<p>Medium</p>"
+      price:"<p>£1,229.00</p>"
+
     },
     prePC10 : {
       name:"<h4>TOPAZ ULTRA</h4>",
@@ -135,8 +135,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>1TB Seagate Firecuda 5000MB/s Read / 4400MB/s Write</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£2,877.00</p>",
-      settings:"<p>High</p>"
+      price:"<p>£2,877.00</p>"
+
     },
     prePC11 : {
       name:"<h4>TOPAZ ELITE</h4>",
@@ -149,8 +149,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>500GB Seagate Firecuda 5000MB/s Read / 2500MB/s Write</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,781.00</p>",
-      settings:"<p>High</p>"
+      price:"<p>£1,781.00</p>"
+
     },
     prePC12 : {
       name:"<h4>INFINITY X105</h4>",
@@ -163,8 +163,8 @@ const prePC = {
       ssd:"<p>ADATA 240 GB 520MB/s Read / 450MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£999.60</p>",
-      settings:"<p>Low</p>"
+      price:"<p>£999.60</p>"
+
     },
     prePC13 : {
       name:"<h4>INFINITY X119</h4>",
@@ -177,8 +177,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>1TB Intel 670P 3500MB/s Read / 2500MB/s Write</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£3,418.80</p>",
-      settings:"<p>High</p>"
+      price:"<p>£3,418.80</p>"
+
     },
     prePC14 : {
       name:"<h4>FIREFLY ENTHUSIAST</h4>",
@@ -191,8 +191,8 @@ const prePC = {
       ssd:"<p>500GB Samsung 970 EVO 3400MB/s Read / 3300MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>1TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,899.95</p>",
-      settings:"<p>High</p>"
+      price:"<p>£1,899.95</p>"
+
     },
     prePC15 :{
       name:"<h4>ENIGMA ENTHUSIAST</h4>",
@@ -205,8 +205,8 @@ const prePC = {
       ssd:"<p>500GB WD Blue SN550 2600MB/s Read / 1800MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£1,749.95</p>",
-      settings:"<p>High</p>"
+      price:"<p>£1,749.95</p>"
+
     },
     prePC16 :{
       name:"<h4>ULTRA 33 GTX</h4>",
@@ -219,8 +219,8 @@ const prePC = {
       ssd:"<p>ADATA 240 GB 520MB/s Read / 450MB/s Write</p>",
       m2:"<p>N/A</p>",
       hdd:"<p>N/A</p>",
-      price:"<p>£649.20</p>",
-      settings:"<p>Low</p>"
+      price:"<p>£649.20</p>"
+
     },
     prePC17 : {
       name:"<h4>HYPER LIQUID 400</h4>",
@@ -233,8 +233,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>ADATA XPG 512GB 3500MB/s Read / 3000MB/s Write</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£2,439.60</p>",
-      settings:"<p>High</p>"
+      price:"<p>£2,439.60</p>"
+
     },
     prePC18 : {
       name:"<h4>ICUE ULTRA 5</h4>",
@@ -247,8 +247,8 @@ const prePC = {
       ssd:"<p>N/A</p>",
       m2:"<p>512GB Intel 670P 3000MB/s Read / 1600MB/s Write</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
-      price:"<p>£2,649.60</p>",
-      settings:"<p>High</p>"
+      price:"<p>£2,649.60</p>"
+    
     }
 
 }

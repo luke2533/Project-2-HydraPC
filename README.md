@@ -213,6 +213,15 @@ Additions:
 
 Issue RESOLVED - Sidebar stuck behind the pc part's (6.12)
 
+### 6.14 Basic sidebar CSS and JS, save prompt and home pre built PC's
+
+Additions:
+
+- Added 3 Pre built PC recommendations to home page
+- Added basic CSS for price tracker box
+- Added basic CSS and JS for spec tracker
+- Added prompt for save JS (Not including emailJS yet)
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
