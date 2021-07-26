@@ -193,11 +193,25 @@ Additions:
 
 Issues - Trying to add values to pre-built computers that respond to the questionnaire
 
-### 6.12 Removed sign up page from nav-bar, added sidebar and case parts 
+### 6.12 Removed sign up page from nav-bar, added sidebar and case parts
+
+Additions:
 
 - Removed the sign in pages from the nav-bar
 - Added the sidebar for custom built PC
 - Added the case parts to custom built page
+- Added values to pre built PC's for questionnaire
+
+Issues - Sidebar stuck behind the pc part's
+
+### 6.13 Images and titles for PC parts added, sidebar issues resolved
+
+Additions:
+
+- Images and titles added for all PC part categories
+- Fixed sidebar being stuck behind pc parts
+
+Issue RESOLVED - Sidebar stuck behind the pc part's (6.12)
 
 ## 7.0 Deployment
 
