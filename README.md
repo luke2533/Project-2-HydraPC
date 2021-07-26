@@ -181,6 +181,24 @@ Additions:
 
 Issues - The pre built PC cards have commas from the objects which need to be removed
 
+### 6.11 Checkout links, wireframe additions, new logo, nav-bar, find PC progress
+
+Additions:
+
+- Links to checkout from pre built PC's
+- Wireframe additions (Change in how saving custom PC will work)
+- Changes to logo
+- Changed color's nav-bar (subject to change)
+- Find PC questionnaire responds in console
+
+Issues - Trying to add values to pre-built computers that respond to the questionnaire
+
+### 6.12 Removed sign up page from nav-bar, added sidebar and case parts 
+
+- Removed the sign in pages from the nav-bar
+- Added the sidebar for custom built PC
+- Added the case parts to custom built page
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

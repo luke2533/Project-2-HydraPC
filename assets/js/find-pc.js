@@ -7,26 +7,23 @@
 // });
 
 
-var $findPc = $("input[name='budget'], input[name='gpu'], input[name='cpu'], input[name='setting']");
+// COME BACK TO THIS
+
+var $findPc = $("input[name='filter']");
 $findPc.change(function(){
   var $checked = $findPc.filter(function(){
     return $(this).prop("checked");
   });
-  if(this.prePC.budget == "2"){
+  // if  ($findPc != ".low"){
+  //   $(this).css("clear: both;")
+  // }
 
-  }
+  console.log($checked.val());
 });
 
 
-  // Above it perfectish minus weird problem
-  //console.log(prePC.prePC1.budget);
-  //console.log($checked.val());
+// COME BACK TO THIS
 
-
-
-
-// $(prePC.prePC1.name).text("Hello luke");
-// console.log(prePC.prePC1.name);
 
 
 

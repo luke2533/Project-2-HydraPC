@@ -159,7 +159,7 @@ footer {
 }
 
 .pc-card{
-  background-color: grey;
+  background-color: #E6E6E6;
   border: solid 3px black;
   display: flex;
   flex-wrap: wrap;
@@ -224,7 +224,7 @@ footer {
 /* Pre built PC's */
 
 .pre-built{
-  background-color: ;
+  background-color: black;
 }
 
 .pre-pc-img{
@@ -232,9 +232,20 @@ footer {
   width: 400px;
 }
 
+
 /* Pre built PC's    END */
 
 /* Build PC tracker */
+
+.custom-sidebar{
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  background: green;
+}
 
 .pc-tracker{
   border: solid 1px black;
@@ -253,6 +264,25 @@ footer {
 
 /* PC part picker  */
 
+.spec-list{
+
+}
+
+.pc-part{
+  background-color: grey;
+  border: black 1px solid;
+  margin: 5px;
+  padding: 0px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.pc-spec-img{
+  width: 300px;
+  height: 300px;
+
+}
 /* PC part picker    END */
 
 /* Contact Us  */
