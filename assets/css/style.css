@@ -287,7 +287,11 @@ footer {
 }
 
 .spec-list{
+/* For the div that surronds each part section */
+}
 
+.spec{
+  /* FOR the radio buttons for each part */
 }
 
 .pc-part{

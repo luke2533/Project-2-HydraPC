@@ -222,6 +222,14 @@ Additions:
 - Added basic CSS and JS for spec tracker
 - Added prompt for save JS (Not including emailJS yet)
 
+### 6.15 Custom PC collapsible + radio buttons work, spec tracker displays cases
+
+Additions:
+
+- Collapsible sections for custom PC section
+- Added radio buttons to each part (to select parts)
+- When selecting a case it displays the correct value (only case)
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

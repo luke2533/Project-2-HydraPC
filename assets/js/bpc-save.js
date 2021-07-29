@@ -12,5 +12,3 @@ function savePc(){
   }
   }
 };
-
-console.log("savePc");

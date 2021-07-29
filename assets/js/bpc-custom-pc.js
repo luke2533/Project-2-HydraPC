@@ -1,15 +1,27 @@
-// This is where the custom PC selected parts are shown 
+// This is where the custom PC selected parts are shown
 const customPc = {
-  case:"<p>''</p>",
-  cpu:"<p>''</p>",
-  gpu:"<p>''</p>",
-  motherboard:"<p>''</p>",
-  ram:"<p>''</p>",
+  case:"",
+  cpu:"",
+  gpu:"",
+  motherboard:"",
+  ram:"",
   pcu:"<p>''</p>",
-  ssd:"<p>'it works'</p>",
-  m2:"<p>''</p>",
-  hdd:"<p>''</p>",
-  price:"<p>'hi'</p>"
+  ssd:"",
+  m2:"",
+  hdd:"",
+  price:""
 }
 
-document.getElementById("customPc").innerHTML = Object.values(customPc);
+var $partPicker = $("input[name='case']");
+$partPicker.change(function(){
+  var $selected = $partPicker.filter(function(){
+    // for (let i = 0; i < $partPicker.length; i++){
+      return $(this).prop("checked");
+    // }
+
+  });
+  document.getElementById("customPc-case").innerHTML = $selected.val();
+  console.log($selected.val()); //$selected.val()
+});
+
+// document.getElementById("customPc").innerHTML = Object.values(customPc);
