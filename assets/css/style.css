@@ -281,9 +281,15 @@ footer {
 
 /* PC part picker  */
 
+#totalCost{
+  display: flex;
+  justify-content: center;
+}
+
 .build-pc{
   width: 80%;
   margin-right: 0px;
+
 }
 
 .spec-list{
@@ -292,6 +298,10 @@ footer {
 
 .spec{
   /* FOR the radio buttons for each part */
+}
+
+.spec-cost{
+  display: none;
 }
 
 .pc-part{
@@ -337,6 +347,8 @@ footer {
 /* Create account    END */
 
 /* Checkout */
+
+
 
 /* Checkout   END */
 

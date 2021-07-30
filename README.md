@@ -230,6 +230,19 @@ Additions:
 - Added radio buttons to each part (to select parts)
 - When selecting a case it displays the correct value (only case)
 
+### 6.16 Progress on price tracker, PC filter and part picker works
+
+Additions:
+
+- All parts appear on the custom PC side bar when selected
+- All prices added to each part for custom PC's
+- Progress made on price tracker (Doesn't work yet)  
+- Progress on pre built PC filter
+
+Issues - The price tracker can't target the correct data because of shared classes on each section and therefore the data cannot be converted into numbers as it cannot be targeted.
+
+Issues - The pre built PC filter does respond but always filters the same things regardless of which one is selected and once selected unless the page is refreshed the page stays the same
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
