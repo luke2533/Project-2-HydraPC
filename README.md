@@ -241,7 +241,21 @@ Additions:
 
 Issues - The price tracker can't target the correct data because of shared classes on each section and therefore the data cannot be converted into numbers as it cannot be targeted.
 
-Issues - The pre built PC filter does respond but always filters the same things regardless of which one is selected and once selected unless the page is refreshed the page stays the same
+Issues - The pre built PC filter does respond but always filters the same things regardless of which one is selected and once selected unless the page is refreshed the page stays the same.
+
+### 6.17 EmailJS added and functional, forms and replaced custom PC alert
+
+Additions:
+
+- Custom PC emailJS
+- Checkout emailJS
+- Functional checkout form
+- Contact us emailJS
+- Functional contact us form
+
+Removed:
+
+- Custom PC alert for customers when they want to save their custom PC and changed to a small form where they add their details
 
 ## 7.0 Deployment
 

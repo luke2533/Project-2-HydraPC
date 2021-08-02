@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_bSF9PKs1KFyfV63bhhs62");
+       })();
+    </script>
     <title>Contact Us</title>
   </head>
 
@@ -156,34 +162,39 @@
         <div class="container-fluid">
           <div class="row justify-content-center">
             <div class="col-5 contact-box">
-              <h2>Hydra PC contact information</h2>
-              <p>Email address : hydraPC@gmail.com</p>
+              <h1>Hydra PC contact information</h1>
+              <h4 class="contact-hydra">Email address : hydraPC@gmail.com</h4>
               <br>
-              <p>Phone number : 07456 684525</p>
+              <h4 class="contact-hydra">Phone number : 07456 684525</h4>
               <br>
-              <p>Address line 1 : 91 Stanley road</p>
+              <h4 class="contact-hydra">Address line 1 : 91 Stanley road</h4>
               <br>
-              <p>Address line 2 : East central london</p>
+              <h4 class="contact-hydra">Address line 2 : East central london</h4>
               <br>
-              <p>Post code : EC52 3QH</p>
+              <h4 class="contact-hydra">Post code : EC52 3QH</h4>
               <br>
-              <p>City : London</p>
+              <h4 class="contact-hydra">City : London</h4>
             </div>
 
             <div class="col-5 contact-box">
-              <form>
-                <h2>Enter your personal information here</h2>
-                <input placeholder="First name">
-                <input placeholder="Last name">
-                <select class="" name="">
+              <form onsubmit="return sendMail(this);">
+                <h1>Enter your personal information here</h1>
+                <select class="contact-form" name="tilte">
                     <option value="0">Mr</option>
                     <option value="1">Mrs</option>
                     <option value="2">Miss</option>
                     <option value="3">Other</option>
                 </select>
-                <input placeholder="Email address">
-                <input placeholder="Phone number">
-                <textarea name="name" rows="8" cols="80" placeholder="Your message"></textarea>
+                <input placeholder="First name" class="contact-form"  name="fname" required>
+                <br>
+                <input placeholder="Last name" class="contact-form"  name="lname" required>
+                <br>
+                <input placeholder="Email address" type="email" class="contact-form"  name="email" required>
+                <br>
+                <input placeholder="Phone number" class="contact-form" name="number">
+                <textarea name="message" rows="8" cols="80" placeholder="Your message" class="contact-form"></textarea>
+                <br>
+                <input type="submit" id="contact-submit">
               </form>
             </div>
           </div>
@@ -272,7 +283,7 @@
       <!-- Mobible footer     END -->
 
       </footer>
-
+      <script src="assets/js/contactSendEmail.js"></script>
     </body>
 
 </html>

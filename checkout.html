@@ -10,51 +10,220 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Checkout</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_bSF9PKs1KFyfV63bhhs62");
+       })();
+    </script>
   </head>
 
     <body>
+      <header>
+    <!-- Bootstrap 4.5 Nav-bar -->
+    <!-- Desktop nav-bar -->
+
+        <div class="container-fluid">
+          <div class="row nav-row nav-desktop">
+            <nav class="nav">
+              <div class="col-lg-10">
+                <ul class="nav nav-bar">
+
+                    <li class="nav-item">
+                      <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo">
+                    </li>
+                    <li class="nav-item">
+                      <h1 id="nav-title">Hydra PC's</h1>
+                    </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <a class="nav-link" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+    <!-- Desktop nav-bar     END-->
+
+    <!-- Tablet nav-bar -->
+
+      <div class="container-fluid">
+        <div class="row nav-row nav-tablet">
+          <nav class="nav">
+            <div class="col-10">
+              <ul class="nav nav-bar-tablet">
+                <li class="nav-item">
+                  <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo-tablet">
+                </li>
+                <li class="nav-item">
+                  <h1 id="nav-title-tablet">Hydra PC's</h1>
+                </li>
+                <li class="nav-item-tablet">
+                  <a class="nav-link-tablet" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item-tablet">
+                  <a class="nav-link-tablet" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
+                </li>
+                <li class="nav-item-tablet">
+                  <a class="nav-link-tablet" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2" id="nav-signup-tablet">
+              <a class="nav-link-tablet" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Tablet nav-bar     END-->
+
+      <!-- Mobile nav-bar -->
+
+      <div class="container-fluid">
+        <div class="nav-mobile">
+          <nav class="nav" id="nav-center-mobile">
+              <ul class="nav">
+                <li class="nav-item-mobile">
+                  <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo-mobile">
+                </li>
+                <li class="nav-item-mobile title-card-mobile">
+                  <h1>Hydra PC's</h1>
+                </li>
+              </ul>
+
+              <ul class="nav nav-border-mobile">
+                <li class="nav-item-mobile">
+                  <a class="nav-link-mobile" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-mobile" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-mobile" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-mobile" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Mobile nav-bar     END-->
+
+      <!-- Small mobile nav bar -->
+
+      <div class="container-fluid">
+        <div class="nav-s-moblile">
+          <nav class="nav" id="nav-center-s-mobile">
+              <ul class="nav">
+                <li class="nav-item-mobile title-card-mobile">
+                  <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo-mobile">
+                </li>
+                <li class="nav-item-mobile title-card-mobile">
+                  <h1>Hydra PC's</h1>
+                </li>
+              </ul>
+
+              <ul class="nav nav-border-mobile">
+                <li class="nav-item-mobile">
+                  <a class="nav-link-s-mobile" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-s-mobile" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-s-mobile" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+                </li>
+                <li class="nav-item-mobile">
+                  <a class="nav-link-s-mobile" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </div>
+
+    <!-- Small mobile nav bar    END-->
+
+    </header>
 
       <section>
 <!-- Checkout -->
+
         <div class="container-fluid">
-          <div classs="row">
-            <div class="col-7">
-              <form>
+          <div class="row justify-content-center">
+            <div class="col-4 checkout-form">
+              <form name="checkoutForm" onsubmit="return sendMail(this);">
                 <h1>Billing details</h1>
                 <br>
-                <input placeholder="First name" class="">
-                <input placeholder="Last name" class="">
+                <label for="fname">First Name*: </label>
+                <input id="fname" name="fname" placeholder="First name" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Country" class="">
+                <label for="lname">Last Name*: </label>
+                <input id="lname" name="lname" placeholder="Last name" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Address line 1" class="">
+                <label for="country">Country*: </label>
+                <input id="country" name="country" placeholder="Country" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Address line 2" class="">
+                <label for="address1">Address 1*: </label>
+                <input id="address1" name="address1" placeholder="Address line 1" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Town / City" class="">
+                <label for="address2">Address 2: </label>
+                <input id="address2" name="address2" placeholder="Address line 2" class="billing-form" type="text">
                 <br>
-                <input placeholder="Postcode / ZIP" class="">
+                <label for="town">Town / City*: </label>
+                <input id="town" name="town" placeholder="Town / City" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Phone number" class="">
+                <label for="zip">Postcode / ZIP*: </label>
+                <input id="zip" name="zip" placeholder="Postcode / ZIP" class="billing-form" type="text" required>
                 <br>
-                <input placeholder="Email address" class="">
+                <label for="phone">Phone Number: </label>
+                <input id="phone" name="phone" placeholder="Phone number" class="billing-form" type="number">
                 <br>
+                <label for="email">Email Address*: </label>
+                <input id="email" name="email" placeholder="Email address" class="billing-form" type="email" required>
+                <br>
+                <input type="submit">
               </form>
             </div>
 
-            <div class="col-3">
+
+            <div class="col-3 checkout-product">
               <h1>Your order</h1>
-              <div>
-                <p>Product details</p>
+              <br>
+              <div class="product">
+                <h4>Product details</h4>
+                <br>
                 <img src="#" alt="#">
-                <p>Shipping cost: </p>
+                <br>
+                <h4>Shipping cost: </h4>
+                <br>
                 <form>
-                  <input type="radio">Fast track £25
-                  <input type="radio">Standard £10
+                  <input type="radio" name="shipping" value="25">Fast track £25
+                  <br>
+                  <input type="radio" name="shipping" value="10">Standard £10
                   <h3>Total</h3>
                 </form>
+
+                <!-- <aside class="checkout-total col-5">
+                  <p>Total cost</p>
+                  <h4>Insert number here</h4>
+                  <h4>Total total</h4>
+                </aside> -->
+
               </div>
-              <button>Place order</button>
             </div>
           </div>
         </div>
@@ -147,5 +316,6 @@
     </footer>
 
   </body>
-
+  <script src="assets/js/checkout.js"></script>
+  <script src="assets/js/checkoutSendEmail.js"></script>
 </html>

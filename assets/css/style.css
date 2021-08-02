@@ -324,14 +324,31 @@ footer {
 
 /* Contact Us  */
 
+#contact-submit{
+  padding: 10px;
+
+}
+
 .contact-box{
   border: solid 1px black;
+  padding: 50px;
+  margin: 5px;
+
+}
+
+.contact-form{
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact-hydra{
+  padding: 3px;
 }
 
 /* Contact Us    END */
 
-/* Create account */
-
+/* Create account DELETE later */
+/*
 .account-form{
   background-color: lightgrey;
   border: solid 1px black;
@@ -342,13 +359,39 @@ footer {
 
 .account{
 
-}
+} */
 
 /* Create account    END */
 
 /* Checkout */
 
+.checkout-form{
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  padding: 50px;
+  margin: 5px;
+}
 
+.checkout-product{
+  margin: 5px;
+  border: black solid 1px;
+  padding: 50px;
+}
+
+.billing-form{
+  margin: 5px;
+}
+
+.product{
+  border: 1px solid black;
+}
+
+.checkout-total{
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+}
 
 /* Checkout   END */
 
