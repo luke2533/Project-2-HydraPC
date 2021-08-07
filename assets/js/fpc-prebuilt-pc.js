@@ -248,33 +248,22 @@ const prePC = {
       m2:"<p>512GB Intel 670P 3000MB/s Read / 1600MB/s Write</p>",
       hdd:"<p>2TB Seagate 6Gb/s 7200RPM Hard drive</p>",
       price:"<p>£2,649.60</p>"
-    
+
     }
 
 }
 
-document.getElementById("prePC1").innerHTML = Object.values(prePC.prePC1);
-document.getElementById("prePC2").innerHTML = Object.values(prePC.prePC2);
-document.getElementById("prePC3").innerHTML = Object.values(prePC.prePC3);
+// Slack
 
-document.getElementById("prePC4").innerHTML = Object.values(prePC.prePC4);
-document.getElementById("prePC5").innerHTML = Object.values(prePC.prePC5);
-document.getElementById("prePC6").innerHTML = Object.values(prePC.prePC6);
+for (var pc in prePC) {
+  htmlContents = "";
+  for (var tag in prePC[pc]) {
+    htmlContents += prePC[pc][tag];
+  }
+  var el = document.getElementById(pc);
+  if (el != null) {
+    el.innerHTML = htmlContents;
+  }
+}
 
-document.getElementById("prePC7").innerHTML = Object.values(prePC.prePC7);
-document.getElementById("prePC8").innerHTML = Object.values(prePC.prePC8);
-document.getElementById("prePC9").innerHTML = Object.values(prePC.prePC9);
-
-document.getElementById("prePC10").innerHTML = Object.values(prePC.prePC10);
-document.getElementById("prePC11").innerHTML = Object.values(prePC.prePC11);
-document.getElementById("prePC12").innerHTML = Object.values(prePC.prePC12);
-
-document.getElementById("prePC13").innerHTML = Object.values(prePC.prePC13);
-document.getElementById("prePC14").innerHTML = Object.values(prePC.prePC14);
-document.getElementById("prePC15").innerHTML = Object.values(prePC.prePC15);
-
-document.getElementById("prePC16").innerHTML = Object.values(prePC.prePC16);
-document.getElementById("prePC17").innerHTML = Object.values(prePC.prePC17);
-document.getElementById("prePC18").innerHTML = Object.values(prePC.prePC18);
-
-// module.exports={prePC};
+// Slack

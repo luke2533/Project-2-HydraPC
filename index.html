@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/slideshow.js"></script>
     <title>Hydra PC's</title>
   </head>
 
@@ -17,34 +18,34 @@
 <!-- Bootstrap 4.5 Nav-bar -->
 <!-- Desktop nav-bar -->
 
-      <div class="container-fluid">
-        <div class="row nav-row nav-desktop">
-          <nav class="nav">
-            <div class="col-lg-10">
-              <ul class="nav nav-bar">
-                <li class="nav-item">
-                  <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo">
-                </li>
-                <li class="nav-item">
-                  <h1 id="nav-title">Hydra PC's</h1>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-2">
-              <a class="nav-link" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
-            </div>
-          </nav>
-        </div>
+<div class="container-fluid">
+  <div class="row nav-row nav-desktop">
+    <nav class="nav">
+      <div class="col-lg-10">
+        <ul class="nav nav-bar">
+          <li class="nav-item">
+            <img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo">
+          </li>
+          <li class="nav-item">
+            <h1 id="nav-title">Hydra PC's</h1>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html"><i class="fas fa-shopping-cart"></i> Checkout</a>
+          </li>
+        </ul>
       </div>
+      <div class="col-lg-2">
+        <a class="nav-link" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
+      </div>
+    </nav>
+  </div>
+</div>
 
 <!-- Desktop nav-bar     END-->
 
@@ -68,7 +69,7 @@
             <a class="nav-link-tablet" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
           </li>
           <li class="nav-item-tablet">
-            <a class="nav-link-tablet" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+            <a class="nav-link-tablet" href="checkout.html"><i class="fas fa-shopping-cart"></i> Checkout</a>
           </li>
         </ul>
       </div>
@@ -103,7 +104,7 @@
             <a class="nav-link-mobile" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
           </li>
           <li class="nav-item-mobile">
-            <a class="nav-link-mobile" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+            <a class="nav-link-mobile" href="checkout.html"><i class="fas fa-shopping-cart"></i> Checkout</a>
           </li>
           <li class="nav-item-mobile">
             <a class="nav-link-mobile" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
@@ -128,7 +129,6 @@
             <h1>Hydra PC's</h1>
           </li>
         </ul>
-
         <ul class="nav nav-border-mobile">
           <li class="nav-item-mobile">
             <a class="nav-link-s-mobile" href="index.html"><i class="fas fa-home"></i> Home</a>
@@ -137,7 +137,7 @@
             <a class="nav-link-s-mobile" href="custom-pc.html"><i class="fas fa-desktop"></i> Build PC</a>
           </li>
           <li class="nav-item-mobile">
-            <a class="nav-link-s-mobile" href="pre-built-pc.html"><i class="fas fa-search"> Find your PC</i></a>
+            <a class="nav-link-s-mobile" href="checkout.html"><i class="fas fa-shopping-cart"></i> Checkout</a>
           </li>
           <li class="nav-item-mobile">
             <a class="nav-link-s-mobile" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
@@ -151,26 +151,22 @@
 
     </header>
 
-    <div class="checkout-placeholder">
-      <a href="checkout.html"><h2>To get to Checkout page (PLACEHOLDER)</h2></a>
-    </div>
-
 <!-- Desktop slideshow -->
     <section>
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div id="hydra-slide" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#hydra-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#hydra-slide" data-slide-to="1"></li>
+          <li data-target="#hydra-slide" data-slide-to="2"></li>
+          <li data-target="#hydra-slide" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/images/sample-slide-1.jpg" class="d-block w-100" style="height: 600px;" alt="">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>...</p>
+              <h5>Hydra PC's</h5>
+              <p>Welcome </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -195,11 +191,11 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#hydra-slide" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#hydra-slide" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -207,6 +203,25 @@
 
     </section>
 <!-- Desktop slideshow    END-->
+
+<!-- Desktop Build your computer here -->
+<section>
+
+  <div class="container fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 build-here">
+        <h2 id="build-title">Welcome to Hydra PC's</h2>
+        <h5>Here at Hydra PC's we pride ourself on providing the best customer service and a wide array of choices to personalise YOUR computer to YOUR needs,
+          whether its gaming, streaming or a complete package.</h5>
+        <button type="button" onclick="window.location.href='custom-pc.html'">Click here to build your PC!!!</button>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- Desktop Build your computer here     END-->
 
 <!-- Desktop PC recomadations  -->
     <section>
@@ -236,41 +251,6 @@
     </section>
 <!-- Desktop PC recomadations     END -->
 
-<!-- Desktop Social Media -->
-<section>
-
-  <div class="container-fluid">
-    <div class="row justify-content-center top-pc">
-      <div class="col-md-3 pc-card">
-        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube social-icon"></i></a>
-        <p>
-          "Random post by Hydra PC's" - 10:47pm Monday 10/05/21
-        </p>
-        <a href="https://youtube.com" class="social-media" target="_blank">Follow us here</a>
-      </div>
-
-      <div class="col-md-3 pc-card">
-        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
-        <p>
-          "Random post by Hydra PC's" - 10:47pm Monday 10/05/21
-        </p>
-        <a href="https://twitter.com" class="social-media" target="_blank">Follow us here</a>
-      </div>
-
-      <div class="col-md-3 pc-card">
-        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
-        <p>
-          "Random post by Hydra PC's" - 10:47pm Monday 10/05/21
-        </p>
-        <a href="https://instagram.com" class="social-media" target="_blank">Follow us here</a>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<!-- Desktop Social Media     END-->
-
 <footer>
 <!-- Desktop footer -->
   <div class="container-fluid">
@@ -289,7 +269,7 @@
         <br>
         <a href="index.html"><i class="fas fa-home footer-icon"></i></a>
         <a href="custom-pc.html"><i class="fas fa-desktop footer-icon"></i></a>
-        <a href="pre-built-pc.html"><i class="fas fa-search footer-icon"></i></a>
+        <a href="checkout.html"><i class="fas fa-shopping-cart footer-icon"></i></a>
         <a href="contact-us.html"><i class="fas fa-phone footer-icon"></i></a>
 
       </div>
@@ -316,7 +296,7 @@
           <br>
           <a href="index.html"><i class="fas fa-home footer-icon-tablet"></i></a>
           <a href="custom-pc.html"><i class="fas fa-desktop footer-icon-tablet"></i></a>
-          <a href="pre-built-pc.html"><i class="fas fa-search footer-icon-tablet"></i></a>
+          <a href="checkout.html"><i class="fas fa-shopping-cart footer-icon-tablet"></i></a>
           <a href="contact-us.html"><i class="fas fa-phone footer-icon-tablet"></i></a>
 
         </div>
@@ -343,8 +323,8 @@
           <h5>Navigation</h5>
           <br>
           <a href="index.html"><i class="fas fa-home footer-icon-mobile"></i></a>
-          <a href="custom-pc.html"><i class="fas fa-desktop footer-icon-mobile"></i></a>
-          <a href="pre-built-pc.html"><i class="fas fa-search footer-icon-mobile"></i></a>
+          <a href="assets/html/custom-pc.html"><i class="fas fa-desktop footer-icon-mobile"></i></a>
+          <a href="checkout.html"><i class="fas fa-shopping-cart footer-icon-mobile"></i></a>
           <a href="contact-us.html"><i class="fas fa-phone footer-icon-mobile"></i></a>
 
         </div>
@@ -356,7 +336,7 @@
 
   </footer>
     <script src="assets/js/fpc-prebuilt-pc.js"></script>
-    <script src="assets/js/script.js"></script>
+
 
   </body>
 </html>

@@ -7,13 +7,13 @@ h1 {
   color: #275DAD;
 }
 
-body {
+body a {
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 400;
 }
 
 nav {
-  background-color: #E6E6E6;
+  background-color: black;
 }
 
 footer {
@@ -50,7 +50,9 @@ footer {
 }
 
 .nav-link{
-  background-color: red;
+  background-color: #e6e6e6;
+  font-family: "Noto Sans TC", sans-serif;
+  color: black;
   width: 125px;
   height: 50px;
   padding: 10px;
@@ -151,6 +153,29 @@ footer {
 
 /* Small mobile nav bar     END */
 
+/* Slideshow */
+
+
+
+/* Slideshow     END */
+
+/* Home page custom PC */
+
+#build-title{
+  display: flex;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.build-here{
+  background-color: lightgrey;
+  border: black 1px solid;
+  padding: 25px;
+  margin: 10px;
+}
+
+/* Home page custom PC     END */
+
 /* Pc recomadations */
 
 .top-pc{
@@ -176,23 +201,6 @@ footer {
 }
 
 /* Pc recomadations      END*/
-
-/* Social media */
-
-.social-media{
-  background-color: grey;
-  color: red;
-  border: solid 1px black;
-  padding: 10px;
-}
-
-.social-icon{
-  background-color: grey;
-  color: red;
-  font-size: 2.5em;
-}
-
-/* Social media     END */
 
 /* Find your PC collapseable questionaire  */
 
@@ -347,21 +355,6 @@ footer {
 
 /* Contact Us    END */
 
-/* Create account DELETE later */
-/*
-.account-form{
-  background-color: lightgrey;
-  border: solid 1px black;
-  height: 800px;
-  width: 1000px;
-  padding: 250px;
-}
-
-.account{
-
-} */
-
-/* Create account    END */
 
 /* Checkout */
 

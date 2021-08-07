@@ -257,6 +257,25 @@ Removed:
 
 - Custom PC alert for customers when they want to save their custom PC and changed to a small form where they add their details
 
+### 6.18 Changes to home page, progress on build PC, removed social media
+
+Additions:
+
+- customPc.js for price tracker and pc priceTracker
+- Home page advertisement for build PC
+
+Removed:
+
+- Find PC from nav-bor
+- Find PC from footer
+- Removed social media section from home page
+
+Issues - Slide show isn't working get error message saying .carousel isn't a function
+
+Issues - Problem with the priceTracker identify the selected item
+
+Issues RESOLVED - Trying to add values to pre-built computers that respond to the questionnaire (6.10)
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links
