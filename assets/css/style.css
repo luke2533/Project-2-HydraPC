@@ -7,19 +7,21 @@ h1 {
   color: #275DAD;
 }
 
-body a {
+body {
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 400;
+
 }
 
 nav {
-  background-color: black;
+  background-color: #0E0B16;
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: #E7DFDD;
   height: 200px;
 }
+
 
 /* Genral     END*/
 
@@ -29,6 +31,7 @@ footer {
   margin: 5px;
   margin-top: 24px;
   font-size: 3.5em;
+  color: #4717F6;
 }
 
 .container-fluid{
@@ -50,16 +53,21 @@ footer {
 }
 
 .nav-link{
-  background-color: #e6e6e6;
+  /* background-color: white; */
   font-family: "Noto Sans TC", sans-serif;
-  color: black;
-  width: 125px;
+  color: #A239CA;
+  /* width: 125px; */
   height: 50px;
   padding: 10px;
   margin: 5px;
   margin-top: 35px;
-  border: solid 1px black;
+  justify-content: center;
+  /* border: solid 1px black; */
   align-content: center;
+}
+
+.nav-item{
+  width: auto;
 }
 
 /* Genral nav bar      END*/

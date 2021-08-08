@@ -263,6 +263,7 @@ Additions:
 
 - customPc.js for price tracker and pc priceTracker
 - Home page advertisement for build PC
+- Solved PC card issue
 
 Removed:
 
@@ -274,7 +275,18 @@ Issues - Slide show isn't working get error message saying .carousel isn't a fun
 
 Issues - Problem with the priceTracker identify the selected item
 
-Issues RESOLVED - Trying to add values to pre-built computers that respond to the questionnaire (6.10)
+Issues RESOLVED - Trying to add values to pre-built computers that respond to the questionnaire (6.11)
+
+Issue RESOLVED - Comma appearing in between each part (6.10)
+
+### 6.19 Title/logo link to home, change nav-bar colors, updated README 6.18
+
+Additions:
+
+- Links to home page on title and logo on the nav-bar
+- Updated the logo
+- Change in colour scheme (Work in progress)
+- Documentation updated 6.18 missing issue RESOLVED now corrected
 
 ## 7.0 Deployment
 
