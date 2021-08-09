@@ -93,6 +93,18 @@ User needs:
 
 ## 5.0 Testing
 
+### 5.1 Nav-bar
+
+### 5.2 Footer
+
+### 5.3 Home page
+
+### 5.4 Build your PC
+
+### 5.5 Contact us
+
+### 5.6 Checkout
+
 ## 6.0 Development life cycle
 
 ### 6.1 Initial commit
@@ -287,6 +299,16 @@ Additions:
 - Updated the logo
 - Change in colour scheme (Work in progress)
 - Documentation updated 6.18 missing issue RESOLVED now corrected
+
+### 6.20 Removed files without purpose
+
+Removed:
+
+- Find PC HTML File
+- Sign up HTML File
+- Test.md File
+- fpc-find-pc.js File
+
 
 ## 7.0 Deployment
 
