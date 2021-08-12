@@ -319,6 +319,18 @@ Additions:
 - PC card CSS
 - Home page colour updated
 
+### 6.22 Home breakpoints, hover animation, shadow boxes, transparent PC images
+
+Additions:
+
+- Shadow boxes
+- Build your PC text
+- Button hover animation
+- Link hover animation
+- Icon hover animation
+- Breakpoints to home build your PC section
+- Transparent backgrounds to Pre built PC's
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

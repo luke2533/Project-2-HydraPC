@@ -62,14 +62,22 @@ footer {
   margin: 5px;
   margin-top: 35px;
   justify-content: center;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   align-content: center;
+  box-shadow: 5px 5px 10px #A239CA;
   /* Add white background as the hover */
+}
+
+.nav-link:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 5px white;
 }
 
 .nav-item{
   width: auto;
 }
+
 
 /* Genral nav bar      END*/
 
@@ -91,14 +99,20 @@ footer {
 }
 
 .nav-link-tablet{
-  background-color: red;
   width: 40px;
   height: 50px;
   padding: 10px;
   margin: 3px;
-  border: solid 1px black;
   align-content: center;
   font-size: 0.75em;
+  color: white;
+  box-shadow: 5px 5px 10px #A239CA;
+}
+
+.nav-link-tablet:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 5px white;
 }
 
 .nav-item-tablet{
@@ -119,7 +133,6 @@ footer {
 
 .nav-border-mobile{
   height: 50px;
-  background-color: lightblue;
   margin-bottom: 10px;
 }
 
@@ -129,13 +142,19 @@ footer {
 }
 
 .nav-link-mobile{
-  background-color: red;
   width: 40px;
   height: 50px;
   padding: 8px;
   margin: 2.5px;
-  border: solid 1px black;
   font-size: 0.7em;
+  color: white;
+  box-shadow: 5px 5px 10px #A239CA;
+}
+
+.nav-link-mobile:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 5px white;
 }
 
 .nav-item-mobile{
@@ -151,13 +170,19 @@ footer {
 }
 
 .nav-link-s-mobile{
-  background-color: red;
   width: 40px;
   height: 50px;
   padding: 8px;
   margin: 2.5px;
-  border: solid 1px black;
   font-size: 0.45em;
+  color: white;
+  box-shadow: 5px 5px 10px #A239CA;
+}
+
+.nav-link-s-mobile:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 5px white;
 }
 
 /* Small mobile nav bar     END */
@@ -168,7 +193,7 @@ footer {
 
 /* Slideshow     END */
 
-/* Home page custom PC */
+/* Desktop home page custom PC */
 
 #build-title{
   display: flex;
@@ -182,11 +207,26 @@ footer {
   color: white;
   padding: 25px;
   margin: 10px;
-  min-width: 1450px;
   background-color: #0E0B16;
+  box-shadow: 5px 5px 10px #A239CA;
+  text-align: center;
 }
 
-/* Home page custom PC     END */
+.hydra-btn{
+  background-color: #0E0B16;
+  color: white;
+  box-shadow: 0 0 5px #A239CA;
+  padding: 10px;
+  margin: 5px;
+}
+
+.hydra-btn:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 5px white;
+}
+
+/* Desktop home page custom PC     END */
 
 /* Pc recomadations */
 
@@ -204,7 +244,7 @@ footer {
   justify-content: center;
   padding: 5px;
   margin: 5px;
-  box-shadow: 2px 5px red;
+  box-shadow: 5px 5px 10px #A239CA;
   /* Come back to shadowsx */
 }
 
@@ -212,10 +252,6 @@ footer {
   max-height: 400px;
 }
 
-.pc-specs{
-  
-  text-align: center;
-}
 
 /* Pc recomadations      END*/
 
@@ -412,9 +448,13 @@ footer {
 }
 
 .footer-icon{
-  width: 75px;
+  padding: 10px;
   font-size: 2.5em;
   color: #4717F6;
+}
+
+.footer-icon:hover{
+  color: #A239CA;
 }
 
 /* Desktop footer       END */
@@ -427,6 +467,9 @@ footer {
   color: #4717F6;
 }
 
+.footer-icon-tablet:hover{
+  color: #A239CA;
+}
 
 /* Tablet footer      END */
 
@@ -438,6 +481,9 @@ footer {
   color: #4717F6;
 }
 
+.footer-icon-mobile:hover{
+  color: #A239CA;
+}
 
 /* Mobile footer    END */
 
