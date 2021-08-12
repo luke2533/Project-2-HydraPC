@@ -309,6 +309,15 @@ Removed:
 - Test.md File
 - fpc-find-pc.js File
 
+### 6.21 Slideshow additions and home page colour theme updated
+
+Additions:
+
+- Slideshow images added
+- Text and links Added
+- Alt tags corrected
+- PC card CSS
+- Home page colour updated
 
 ## 7.0 Deployment
 
