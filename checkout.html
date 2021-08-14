@@ -195,7 +195,7 @@
                 <label for="email">Email Address*: </label>
                 <input id="email" name="email" placeholder="Email address" class="billing-form" type="email" required>
                 <br>
-                <input type="submit">
+                <input type="submit" class="hydra-btn">
               </form>
             </div>
 
@@ -204,9 +204,7 @@
               <h1>Your order</h1>
               <br>
               <div class="product">
-                <h4>Product details</h4>
-                <br>
-                <img src="#" alt="#">
+                <h4 id="product-details">Product details</h4>
                 <br>
                 <h4>Shipping cost: </h4>
                 <br>
@@ -214,7 +212,9 @@
                   <input type="radio" name="shipping" value="25">Fast track £25
                   <br>
                   <input type="radio" name="shipping" value="10">Standard £10
-                  <h3>Total</h3>
+                  <br>
+                  <br>
+                  <h3>Total</h3><span id="totalCost">£</span>
                 </form>
 
                 <!-- <aside class="checkout-total col-5">

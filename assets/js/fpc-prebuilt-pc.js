@@ -1,7 +1,7 @@
 
 const prePC = {
     prePC1 : {
-      name:"<h4>CODMW RYZEN GAMING PC</h4>",
+      name:"<h1>CODMW RYZEN GAMING PC</h1>",
       case:"<p>Lian Li Lancool-215</p>",
       cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>RTX 3060 12GB</p>",
@@ -14,7 +14,7 @@ const prePC = {
       price:"<p>£1,279.20</p>"
     },
     prePC2 : {
-      name:"<h4>ULTRA 53 GTX PC SY1410</h4>",
+      name:"<h1>ULTRA 53 GTX PC SY1410</h1>",
       case:"<p>Corsair 220T</p>",
       cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>GTX 1660 SUPER 6GB</p>",
@@ -27,7 +27,7 @@ const prePC = {
       price:"<p>£1,099.00</p>"
     },
     prePC3 : {
-      name:"<h4>ULTRA R59 GAMING PC</h4>",
+      name:"<h1>ULTRA R59 GAMING PC</h1>",
       case:"<p>Corsar 4000D</p>",
       cpu:"<p>Ryzen 9 5950X 16-Core 3.4GHz, 4.9GHz Turbo - 64MB L3 Cache</p>",
       gpu:"<p>RTX 3070 Ti 8GB</p>",
@@ -41,7 +41,7 @@ const prePC = {
 
     },
     prePC4 : {
-      name:"<h4>ULTRA R57 ELITE GAMING PC</h4>",
+      name:"<h1>ULTRA R57 ELITE GAMING PC</h1>",
       case:"<p>Lian Li Lancool-215</p>",
       cpu:"<p>Ryzen 7 5800X - 8-Core 3.80GHz, 4.7GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6700 XT 12GB</p>",
@@ -55,7 +55,7 @@ const prePC = {
 
     },
     prePC5 : {
-      name:"<h4>INFINITY X115 GAMING PC</h4>",
+      name:"<h1>INFINITY X115 GAMING PC</h1>",
       case:"<p>Lian Li Lancool-215</p>",
       cpu:"<p>i5-11400 - 6-Core 2.6GHz, 4.4GHz Turbo - 12MB L3 Cache</p>",
       gpu:"<p>RTX 2060 6GB</p>",
@@ -69,7 +69,7 @@ const prePC = {
 
     },
     prePC6 : {
-      name:"<h4>ULTRA R35 ELITE GAMING PC</h4>",
+      name:"<h1>ULTRA R35 ELITE GAMING PC</h1>",
       case:"<p>MSI Vampiric 010</p>",
       cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6700 XT 12GB</p>",
@@ -83,7 +83,7 @@ const prePC = {
 
     },
     prePC7 : {
-      name:"<h4>Reign Vanguard Extreme MKII</h4>",
+      name:"<h1>Reign Vanguard Extreme MKII</h1>",
       case:"<p>NZXT H710 ATX</p>",
       cpu:"<p>i9 - 11900K - 8-Core 3.5GHz, 5.1GHz Turbo - 16MB L3 Cache</p>",
       gpu:"<p>RTX 3090 24GB</p>",
@@ -97,7 +97,7 @@ const prePC = {
 
     },
     prePC8 : {
-      name:"<h4>Reign Scout Pro</h4>",
+      name:"<h1>Reign Scout Pro</h1>",
       case:"<p>MSI MAG VAMPIRIC 100R ARGB</p>",
       cpu:"<p>i3 - 10100 - 4-Core 3.6GHz, 4.3GHz Turbo - 6MB L3 Cache</p>",
       gpu:"<p>GTX 1650 4GB</p>",
@@ -111,7 +111,7 @@ const prePC = {
 
     },
     prePC9 : {
-      name:"<h4>Reign Scout Ice</h4>",
+      name:"<h1>Reign Scout Ice</h1>",
       case:"<p>MSI MAG FORGE 100R</p>",
       cpu:"<p>i5- - 11400F - 6-Core 2.6GHz, 4.4GHz Turbo - 12MB L3 Cache</p>",
       gpu:"<p>RTX 3060 12GB</p>",
@@ -125,7 +125,7 @@ const prePC = {
 
     },
     prePC10 : {
-      name:"<h4>TOPAZ ULTRA</h4>",
+      name:"<h1>TOPAZ ULTRA</h1>",
       case:"<p>CORSAIR OBSIDIAN SERIES™ 500D SE CASE</p>",
       cpu:"<p>Ryzen 9 5900X 12-Core 3.7GHz, 4.8 GHz Turbo - 64MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6900 XT 16GB</p>",
@@ -139,7 +139,7 @@ const prePC = {
 
     },
     prePC11 : {
-      name:"<h4>TOPAZ ELITE</h4>",
+      name:"<h1>TOPAZ ELITE</h1>",
       case:"<p>CORSAIR 175R RGB</p>",
       cpu:"<p>Ryzen 6 5600X 6-Core 3.7GHz, 4.6GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6800 16GB</p>",
@@ -153,7 +153,7 @@ const prePC = {
 
     },
     prePC12 : {
-      name:"<h4>INFINITY X105</h4>",
+      name:"<h1>INFINITY X105</h1>",
       case:"<p>Cyberpower ONYXIA</p>",
       cpu:"<p>i5-11400F - 6-Core 2.9GHz, 4.3GHz Turbo - 12MB L3 Cache</p>",
       gpu:"<p>GTX 1660 SUPER 6GB</p>",
@@ -167,7 +167,7 @@ const prePC = {
 
     },
     prePC13 : {
-      name:"<h4>INFINITY X119</h4>",
+      name:"<h1>INFINITY X119</h1>",
       case:"<p>Cyberpower Lancool PC-008</p>",
       cpu:"<p>i9 - 11900K - 8-Core 3.5GHz, 5.1GHz Turbo - 16MB L3 Cache</p>",
       gpu:"<p>RTX 3080 Ti 12GB</p>",
@@ -181,7 +181,7 @@ const prePC = {
 
     },
     prePC14 : {
-      name:"<h4>FIREFLY ENTHUSIAST</h4>",
+      name:"<h1>FIREFLY ENTHUSIAST</h1>",
       case:"<p>Phanteks Eclipse P400</p>",
       cpu:"<p>i7 - 9700K -  8-Core 3.60GHz, 4.9GHz Turbo - 12MB L3 Cache</p>",
       gpu:"<p>RTX 3070 8GB</p>",
@@ -195,7 +195,7 @@ const prePC = {
 
     },
     prePC15 :{
-      name:"<h4>ENIGMA ENTHUSIAST</h4>",
+      name:"<h1>ENIGMA ENTHUSIAST</h1>",
       case:"<p>Kolink Castle</p>",
       cpu:"<p>Ryzen 7 3700X - 8-Core 3.6GHz, 4.4GHz Turbo - 32 L3MB Cache </p>",
       gpu:"<p>RTX 3070 8GB</p>",
@@ -209,7 +209,7 @@ const prePC = {
 
     },
     prePC16 :{
-      name:"<h4>ULTRA 33 GTX</h4>",
+      name:"<h1>ULTRA 33 GTX</h1>",
       case:"<p>Cyberpower Onyxia II</p>",
       cpu:"<p>Ryzen 3 3200G - 4-Core 3.6GHz, 4.0GHz Turbo - 4MB L3 Cache</p>",
       gpu:"<p>GTX 1650 4GB</p>",
@@ -223,7 +223,7 @@ const prePC = {
 
     },
     prePC17 : {
-      name:"<h4>HYPER LIQUID 400</h4>",
+      name:"<h1>HYPER LIQUID 400</h1>",
       case:"<p>Corsair 4000D</p>",
       cpu:"<p>i7-10700K - 8-Core 3.80GHz, 5.00GHz Turbo - 16MB Cache</p>",
       gpu:"<p>RTX 3070 8GB</p>",
@@ -237,7 +237,7 @@ const prePC = {
 
     },
     prePC18 : {
-      name:"<h4>ICUE ULTRA 5</h4>",
+      name:"<h1>ICUE ULTRA 5</h1>",
       case:"<p>Corsair iCue 5000X</p>",
       cpu:"<p>Ryzen 7 5800X - 8-Core 3.80GHz, 4.7GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6800 XT 16GB</p>",

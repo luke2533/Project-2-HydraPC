@@ -331,6 +331,17 @@ Additions:
 - Breakpoints to home build your PC section
 - Transparent backgrounds to Pre built PC's
 
+### 6.23 Updated spec images layout checkout/contact, expand/collapse all buttons
+
+Additions:
+
+- Transparent PC spec Images
+- Changes to contact us layout
+- Changes to checkout layout
+- Added collapse all button for build PC tracker
+- Added expand all button for build PC tracker
+- Added prices to each PC part
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

@@ -13,6 +13,7 @@ function sendMail(orderForm) {
   .then(
     function(response) {
       console.log("success", response);
+      alert("Email sent");
     },
     function(error) {
       console.log("failed", error)

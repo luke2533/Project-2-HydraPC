@@ -13,22 +13,14 @@ for (i = 0; i < btnCollapse.length; i++) {
   });
 }
 
-// function collapseAll(){
-//   $(".collapseAll").collapse("show");
-//             ANOTHER ATTMEPT
-// }
+function expand() {
+  $(".btn-collapse").collapse("show");
 
-//                             ATTEPMT AT COLLAPSE ALL
-// var btnCollapseAll = document.getElementsByClassName("btn-tracker");
-// var x;
-// for (x = 0; x < btnCollapseAll.length; x++) {
-//   btnCollapseAll[x].addEventListener("click", function(){
-//     this.classList.toggle("active");
-//     var collapseAll = this.nextElementSibling;
-//     if (collapseAll.style.display === "block"){
-//       collapseAll.style.display = "none";
-//     } else {
-//       collapseAll.style.display = "block"
-//     }
-//   });
-// }
+  console.log("expand")
+}
+
+function collapse() {
+  $(".btn-collapse").collapse("hide");
+
+  console.log("collapse")
+}

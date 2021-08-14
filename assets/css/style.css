@@ -248,53 +248,28 @@ footer {
   /* Come back to shadowsx */
 }
 
-.top-pcs{
+.top-pcs-desktop{
   max-height: 400px;
+  max-width: 400px;
+}
+
+.top-pcs-tablet{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.top-pcs-mobile{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.top-pcs-s-mobile{
+  max-height: 100px;
+  max-width: 100px;
 }
 
 
 /* Pc recomadations      END*/
-
-/* Find your PC collapseable questionaire  */
-
-.btn-collapse{
-  border: solid 1px black;
-  padding: 5px;
-  background-color: #20FC8F;
-
-}
-
-.question{
-  border: solid 1px black;
-  padding: 10px;
-  height: 250px;
-  display: flex;
-  justify-content: flex-start;
-  margin: 10px;
-  background-color: white;
-}
-
-.card-body{
-  background-color: #275DAD;
-}
-
-/* Add some other pc cards class for other pages */
-
-/* Find your PC collapseable questionaire    END */
-
-/* Pre built PC's */
-
-.pre-built{
-  background-color: black;
-}
-
-.pre-pc-img{
-  height: 400px;
-  width: 400px;
-}
-
-
-/* Pre built PC's    END */
 
 /* Build PC tracker */
 
@@ -316,7 +291,7 @@ footer {
 
 .spec-tracker{
   border: solid 1px black;
-  background-color: grey;
+  background-color: #0E0B16;
   height: 500px;
   width: 300px;
   padding: 5px;
@@ -329,13 +304,21 @@ footer {
   padding: 5px;
   width: 300px;
   border: solid 1px black;
-  background-color: grey;
+  background-color: #0E0B16;
 }
 
-.btn-tracker{
-  margin-left: 5px;
-  margin-right: 5px;
+.btn-collapse{
+  border: solid 1px black;
   padding: 5px;
+  background-color: #0E0B16;
+  color: white;
+  box-shadow: 0 0 10px #A239CA;
+}
+
+.btn-collapse:hover{
+  background-color: #A239CA;
+  color: #0E0B16;
+  box-shadow: 0 0 10px #0E0B16;
 }
 
 /* Build PC tracker    END */
@@ -353,20 +336,31 @@ footer {
 
 }
 
+.card-body{
+  background-color: #0E0B16;
+}
+
+
 .spec-list{
 /* For the div that surronds each part section */
 }
 
 .spec{
   /* FOR the radio buttons for each part */
+  
 }
 
 .spec-cost{
-  display: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.spec-name{
+  color: white;
 }
 
 .pc-part{
-  background-color: grey;
+  background-color: #0E0B16;
   border: black 1px solid;
   margin: 10px;
   padding: 5px;
@@ -374,11 +368,12 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  box-shadow: 0 0 5px #A239CA;
 }
 
 .pc-spec-img{
-  width: 300px;
-  height: 300px;
+   max-width: 300px;
+   max-height: 300px;
 
 }
 /* PC part picker    END */
@@ -387,23 +382,26 @@ footer {
 
 #contact-submit{
   padding: 10px;
-
 }
 
 .contact-box{
   border: solid 1px black;
   padding: 50px;
   margin: 5px;
-
+  background-color: #0E0B16;
+  color: white;
 }
 
 .contact-form{
   padding: 5px;
   margin: 5px;
+  background-color: #CCC5C4;
 }
 
 .contact-hydra{
   padding: 3px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 100;
 }
 
 /* Contact Us    END */
@@ -411,26 +409,40 @@ footer {
 
 /* Checkout */
 
+#product-details{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 100;
+  color: #A239CA;
+}
+
 .checkout-form{
   display: flex;
   justify-content: center;
   border: black solid 1px;
   padding: 50px;
   margin: 5px;
+  background-color: #0E0B16;
+  color: white;
+
 }
 
 .checkout-product{
   margin: 5px;
   border: black solid 1px;
   padding: 50px;
+  background-color: #0E0B16;
+  color: white;
 }
 
 .billing-form{
   margin: 5px;
+  background-color: #CCC5C4;
 }
 
 .product{
-  border: 1px solid black;
+  border: 1px solid white;
+  text-align: center;
+  /* Remove for final version */
 }
 
 .checkout-total{
@@ -502,9 +514,21 @@ footer {
   .nav-mobile{
     display: none;
   }
+  .top-pcs-mobile{
+    display: none;
+  }
+  .pc-card-mobile{
+    display: none;
+  }
 }
 @media screen and (min-width: 424px){
   .nav-s-moblile{
+    display: none;
+  }
+  .top-pcs-s-mobile{
+    display: none;
+  }
+  .pc-card-s-mobile{
     display: none;
   }
 }
@@ -520,6 +544,12 @@ footer {
   .footer-tablet{
     display: none;
   }
+  .top-pcs-tablet{
+    display: none;
+  }
+  .pc-card-tablet{
+    display: none;
+  }
 
 }
 @media screen and (min-width: 767px){
@@ -527,6 +557,12 @@ footer {
     display: none;
   }
   .footer-mobile{
+    display: none;
+  }
+  .top-pcs-mobile{
+    display: none;
+  }
+  .pc-card-mobile{
     display: none;
   }
 }
@@ -554,12 +590,24 @@ footer {
   .footer-desktop{
     display: none;
   }
+  .top-pcs-desktop{
+    display: none;
+  }
+  .pc-card-desktop{
+    display: none;
+  }
 }
 @media screen and (min-width: 1439px){
   .nav-tablet{
     display: none;
   }
   .footer-tablet{
+    display: none;
+  }
+  .top-pcs-tablet{
+    display: none;
+  }
+  .pc-card-tablet{
     display: none;
   }
 }
