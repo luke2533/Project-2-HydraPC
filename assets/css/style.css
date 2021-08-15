@@ -18,8 +18,11 @@ nav {
 }
 
 footer {
-  background-color: #ccc5c4;
+  background-color: #0E0B16;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 100;
   height: 200px;
+  color: white;
 }
 
 
@@ -32,6 +35,22 @@ footer {
   margin-top: 24px;
   font-size: 3.5em;
   color: white;
+}
+
+#nav-title:hover{
+  color: #4717F6;
+}
+
+#nav-title-2{
+  color: #4717F6;
+}
+
+#nav-title-2:hover{
+  color: white;
+}
+
+.title-link:hover{
+  color: #0E0B16;
 }
 
 .container-fluid{
@@ -50,7 +69,16 @@ footer {
 .logo{
   width: 120px;
   border-radius: 50%;
+  transition: all 3s ease-in-out 0s;;
 }
+
+.logo:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+/* How to rotate an image with hover */
+/* https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover*/
 
 .nav-link{
   /* background-color: #A239CA; */
@@ -89,8 +117,15 @@ footer {
   font-size: 2em;
 }
 
-#nav-signup-tablet{
+#nav-contact-tablet{
   margin-top: 28px;
+  width: 95px;
+  padding: 0px;
+}
+
+.nav-tablet{
+  max-width: 768px;
+  margin: 0px;
 }
 
 .logo-tablet{
@@ -146,9 +181,10 @@ footer {
   height: 50px;
   padding: 8px;
   margin: 2.5px;
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: white;
   box-shadow: 5px 5px 10px #A239CA;
+  align-items: baseline;
 }
 
 .nav-link-mobile:hover{
@@ -174,7 +210,7 @@ footer {
   height: 50px;
   padding: 8px;
   margin: 2.5px;
-  font-size: 0.45em;
+  font-size: 0.65em;
   color: white;
   box-shadow: 5px 5px 10px #A239CA;
 }
@@ -321,6 +357,8 @@ footer {
   box-shadow: 0 0 10px #0E0B16;
 }
 
+
+
 /* Build PC tracker    END */
 
 /* PC part picker  */
@@ -347,7 +385,7 @@ footer {
 
 .spec{
   /* FOR the radio buttons for each part */
-  
+
 }
 
 .spec-cost{
@@ -392,6 +430,10 @@ footer {
   color: white;
 }
 
+.contact-box-s-mobile{
+  padding: 30px;
+}
+
 .contact-form{
   padding: 5px;
   margin: 5px;
@@ -406,8 +448,7 @@ footer {
 
 /* Contact Us    END */
 
-
-/* Checkout */
+/* Desktop checkout */
 
 #product-details{
   font-family: "Orbitron", sans-serif;
@@ -451,11 +492,12 @@ footer {
   border: 1px solid black;
 }
 
-/* Checkout   END */
+/* Desktop checkout   END */
+
 
 /* Desktop footer */
 
-.footer-col{
+.footer-col-desktop{
   margin-top: 30px;
 }
 
@@ -473,6 +515,10 @@ footer {
 
 /* Tablet footer */
 
+.footer-col-tablet{
+  margin-top: 30px;
+}
+
 .footer-icon-tablet{
   padding: 10px;
   font-size: 2em;
@@ -487,9 +533,13 @@ footer {
 
 /* Mobile footer */
 
+.footer-col-mobile{
+  margin-top: 50px;
+}
+
 .footer-icon-mobile{
-  padding: 5px;
-  font-size: 1.5em;
+  padding: 3px;
+  font-size: 1.75em;
   color: #4717F6;
 }
 
@@ -497,16 +547,36 @@ footer {
   color: #A239CA;
 }
 
+.footer-title-mobile{
+  font-size: 1.45em;
+}
+
 /* Mobile footer    END */
 
+/* Small mobile footer */
+
+.footer-col-s-mobile{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-icon-s-mobile{
+  padding: 3px;
+  font-size: 1.5em;
+  color: #4717F6;
+}
+
+.footer-icon-s-mobile:hover{
+  color: #A239CA;
+}
+
+.footer-title-s-mobile{
+  font-size: 1.5em;
+}
+
+/* Small mobile footer    END */
+
 /* Breakpoints */
-
-/* Extra small devices*/
-
-/* @media screen and (max-width: 319px){}
-@media screen and (min-width: 319px){} */
-
-/* Extra small devices    END*/
 
 /* Small devices (mobile) */
 
@@ -520,6 +590,22 @@ footer {
   .pc-card-mobile{
     display: none;
   }
+  .checkout-form-mobile{
+    display: none;
+  }
+  .checkout-product-mobile{
+    display: none;
+  }
+  .contact-box-mobile{
+    display: none;
+  }
+  .contact-form-mobile{
+    display: none;
+  }
+  .footer-col-mobile{
+    display: none;
+  }
+
 }
 @media screen and (min-width: 424px){
   .nav-s-moblile{
@@ -531,6 +617,19 @@ footer {
   .pc-card-s-mobile{
     display: none;
   }
+  .checkout-form-s-mobile{
+    display: none;
+  }
+  .checkout-product-s-mobile{
+    display: none;
+  }
+  .contact-box-s-mobile{
+    display: none;
+  }
+  .footer-col-s-mobile{
+    display: none;
+  }
+
 }
 
 /* Small devices (mobile)     END*/
@@ -550,6 +649,21 @@ footer {
   .pc-card-tablet{
     display: none;
   }
+  .checkout-form-tablet{
+    display:none;
+  }
+  .checkout-product-tablet{
+    display:none;
+  }
+  .contact-box-tablet{
+    display: none;
+  }
+  .footer-col-tablet{
+    display: none;
+  }
+  .build-desktop{
+    display:none;
+  }
 
 }
 @media screen and (min-width: 767px){
@@ -565,6 +679,25 @@ footer {
   .pc-card-mobile{
     display: none;
   }
+  .checkout-form-mobile{
+    display: none;
+  }
+  .checkout-product-mobile{
+    display: none;
+  }
+  .contact-box-mobile{
+    display: none;
+  }
+  .contact-form-mobile{
+    display: none;
+  }
+  .footer-col-mobile{
+    display: none;
+  }
+  .build-mobile{
+    display:none;
+  }
+
 }
 
 
@@ -596,7 +729,20 @@ footer {
   .pc-card-desktop{
     display: none;
   }
+  .checkout-form-desktop{
+    display:none;
+  }
+  .checkout-product-desktop{
+    display:none;
+  }
+  .contact-box-desktop{
+    display: none;
+  }
+  .footer-col-desktop{
+    display: none;
+  }
 }
+
 @media screen and (min-width: 1439px){
   .nav-tablet{
     display: none;
@@ -608,6 +754,18 @@ footer {
     display: none;
   }
   .pc-card-tablet{
+    display: none;
+  }
+  .checkout-form-tablet{
+    display:none;
+  }
+  .checkout-product-tablet{
+    display:none;
+  }
+  .contact-box-tablet{
+    display: none;
+  }
+  .footer-col-tablet{
     display: none;
   }
 }

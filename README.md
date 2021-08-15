@@ -342,6 +342,19 @@ Additions:
 - Added expand all button for build PC tracker
 - Added prices to each PC part
 
+### 6.24 Breakpoint improvements, tab images and rotating logo image
+
+Additions:
+
+- Rotating logo image
+- Animation to title link
+- Added tab image
+- Finished collapse buttons Build PC
+- Improvements to nav-bar breakpoints
+- Improvements to footer breakpoints
+- Improvements to home page build breakpoints
+
+
 ## 7.0 Deployment
 
 ### 7.1 GitHub links

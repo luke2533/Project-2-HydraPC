@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="assets/js/slideshow.js"></script>
     <title>Hydra PC's</title>
+    <link rel="shortcut icon" href="assets/images/hydra-logo.jpg" type="image/x-icon">
   </head>
 
   <body>
@@ -27,7 +28,7 @@
             <a href="index.html"><img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo"></a>
           </li>
           <li class="nav-item">
-            <a href="index.html"><h1 id="nav-title">Hydra <span style="color: #4717F6;">PC's</span></h1></a>
+            <a href="index.html" class="title-link"><h1 id="nav-title">Hydra <span id="nav-title-2">PC's</span></h1></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
@@ -73,7 +74,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-2" id="nav-signup-tablet">
+      <div class="col" id="nav-contact-tablet">
         <a class="nav-link-tablet" href="contact-us.html"><i class="fas fa-phone"></i> Contact Us</a>
       </div>
     </nav>
@@ -205,11 +206,12 @@
     </section>
 <!-- Desktop slideshow    END-->
 
-<!-- Desktop Build your computer here -->
 <section>
 
+<!-- Desktop Build your computer here -->
+
   <div class="container fluid">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center build-desktop">
       <div class="build-here col">
         <h2 id="build-title">Welcome to Hydra PC's</h2>
         <br>
@@ -229,9 +231,34 @@
     </div>
   </div>
 
-  </section>
-
 <!-- Desktop Build your computer here     END-->
+
+<!-- Mobile Build your computer here -->
+
+  <div class="container fluid">
+    <div class="row justify-content-center build-mobile">
+      <div class="build-here col">
+        <h2 id="build-title">Welcome to Hydra PC's</h2>
+        <br>
+        <p>At Hyrda PC's, we understand the importance of building the perfect PC. To cater to that,
+          we offer the most extensive range of components and specifications on the system build market.
+          <br>
+          <br>
+          Our collection of custom PC parts are all customisable to suit your unique preferences,
+          whilst maintaining an excellent level of value and quality, regardless of budget.
+          <br>
+          <br>
+          From computer casing and graphic cards to RAM storage and CPU's,
+          whatever you desire our in-house experts will use their years of industry experience and knowledge to ensure we supply the perfect custom PC build for you.</p>
+          <br>
+        <button type="button" onclick="window.location.href='custom-pc.html'" class="hydra-btn">Click here to build your PC!!!</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Mobile Build your computer here     END-->
+
+  </section>
 
 <!-- Desktop PC recomadations  -->
     <section>
@@ -239,19 +266,16 @@
       <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-desktop">
-            <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-desktop">
             <span id="prePC12"></span>
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
 
           <div class="col-md-3 pc-card pc-card-desktop">
-            <img src="assets/images/prepc/cyberpower-pc-008.jpg" alt="INFINITY X119" class="top-pcs-desktop">
             <span id="prePC13"></span>
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
 
           <div class="col-md-3 pc-card pc-card-desktop">
-            <img src="assets/images/prepc/msi-forge-100r.jpg" alt="Reign Scout Ice" class="top-pcs-desktop">
             <span id="prePC9"></span>
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
@@ -263,11 +287,11 @@
 <!-- Tablet PC recomadations  -->
 
 
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-10 pc-card pc-card-tablet">
             <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-tablet">
-            <span id="prePC12"></span>
+            <span id="prePC13"></span>
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
 
@@ -283,14 +307,14 @@
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
         </div>
-      </div> -->
+      </div>
 
 <!-- Tablet PC recomadations     END -->
 
 <!-- Mobile PC recomadations  -->
 
 
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-mobile">
             <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-mobile">
@@ -310,14 +334,13 @@
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
         </div>
-      </div> -->
+      </div>
 
 <!-- Mobile PC recomadations     END -->
 
 <!-- Small mobile PC recomadations  -->
 
-
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-s-mobile">
             <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-s-mobile">
@@ -337,7 +360,7 @@
             <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
           </div>
         </div>
-      </div> -->
+      </div>
 
 <!-- Small mobile PC recomadations     END -->
 
@@ -349,7 +372,7 @@
 <!-- Desktop footer -->
   <div class="container-fluid">
     <div class="row justify-content-md-center footer-desktop">
-      <div class="col-md-4 footer-col">
+      <div class="col-md-4 footer-col-desktop">
         <h2>Social media</h2>
         <br>
         <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square footer-icon"></i></a>
@@ -358,7 +381,7 @@
         <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
       </div>
 
-      <div class="col-md-4 footer-col">
+      <div class="col-md-4 footer-col-desktop">
         <h2>Navigation</h2>
         <br>
         <a href="index.html"><i class="fas fa-home footer-icon"></i></a>
@@ -405,7 +428,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center footer-mobile">
         <div class="col-5 footer-col-mobile">
-          <h5>Social media</h5>
+          <h5 class="footer-title-mobile">Social media</h5>
           <br>
           <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square footer-icon-mobile"></i></a>
           <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube footer-icon-mobile"></i></a>
@@ -414,7 +437,7 @@
         </div>
 
         <div class="col-5 footer-col-mobile">
-          <h5>Navigation</h5>
+          <h5 class="footer-title-mobile">Navigation</h5>
           <br>
           <a href="index.html"><i class="fas fa-home footer-icon-mobile"></i></a>
           <a href="assets/html/custom-pc.html"><i class="fas fa-desktop footer-icon-mobile"></i></a>
@@ -427,6 +450,34 @@
     </div>
 
   <!-- Mobible footer     END -->
+
+  <!-- Small mobible footer  -->
+
+  <div class="container-fluid">
+    <div class="row justify-content-center footer-s-mobile">
+      <div class="col-7 footer-col-s-mobile">
+        <h4 class="footer-title-s-mobile">Social media</h4>
+
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square footer-icon-s-mobile"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube footer-icon-s-mobile"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter footer-icon-s-mobile"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram footer-icon-s-mobile"></i></a>
+      </div>
+
+      <div class="col-7 footer-col-s-mobile">
+        <h4 class="footer-title-s-mobile">Navigation</h4>
+
+        <a href="index.html"><i class="fas fa-home footer-icon-s-mobile"></i></a>
+        <a href="assets/html/custom-pc.html"><i class="fas fa-desktop footer-icon-s-mobile"></i></a>
+        <a href="checkout.html"><i class="fas fa-shopping-cart footer-icon-s-mobile"></i></a>
+        <a href="contact-us.html"><i class="fas fa-phone footer-icon-s-mobile"></i></a>
+
+      </div>
+
+    </div>
+  </div>
+
+<!-- Small mobible footer     END -->
 
   </footer>
     <script src="assets/js/fpc-prebuilt-pc.js"></script>
