@@ -52,32 +52,56 @@ User needs:
 ### 1.4 User stories
 
 1.4.1 User is looking to custom build a PC
-1.4.2 User wants a pre set built computer
-1.4.3 User isn't sure what computer they need
+1.4.2 User wants a purchase a computer
+1.4.3 User needs to contact customer service
 1.4.4 User wants to save there custom PC specs
 1.4.5 User wants to know the total price of their PC
 
-1.4.1 The user wants to build a custom PC but doesn't want to buy each part from different sellers, the user can find the custom PC maker on any page through the footer and nav-bar. Where they can go through each part and select a part to make their PC that fits their requirements.
+1.4.1 The user wants to build a custom PC without having to buy the parts individually or have to build the PC themselves, build PC being the core feature of the website can be accessed universally on the nav, footer and homepage once their the user can pick from 9 subsections for different hardware compiling their selected parts into a list with the prices being totaled up beneath the spec list.
 
-1.4.2 The user doesn’t know enough about computers to build their own through the custom PC builder, users can find the pre-built PC’s under find your PC link on nav-bar and footer. Users can select a pre-built PC where the specs and price will display information on it.  
+1.4.2 The user has created a PC and wants to purchase it which they can do from the sidebar or through direct links (pre built PC’s) where the user can select the shipping method and enter their personal details, receiving an email with the product summary and confirmation of purchase.
 
-1.4.3 For users who know nothing about computers and need assistance in picking a computer, the Find Your PC can be found on all pages on the nav-bar or footer. The page has a drop down menu where a number of questions are asked for the user to find out what their requirements and restrictions are, then present the computers that they can afford.
+1.4.3 The user needs help with an enquiry about an issue or PC question from the hydra PC team, users can find the contact page universally on the nav and footer where they can enter their personal details as well as a message, once submitted the user will receive an email confirming that their message has been sent.
 
-1.4.4 After building a custom PC on the build PC page the user may not have the money or wants to build multiple computers but doesn't want to lose the PC when they load the computer. To avoid this the user can save the specs list and it will be sent to their email address.
+1.4.4 After building a custom PC on the build PC page the user may not want to purchase straight away or come back to which rather than having to remember the parts they picked. The user can enter their name and email at the bottom of the sidebar sending an email to them with the list of parts and the cost.
 
-1.4.5 The user is creating a custom computer but needs to stick within a budget and needs a way to track the costs, on the build PC page at the left side of the page a sidebar follows the user on the page as they scroll up and down. This adds the parts the user has selected and totals the cost of the hardware underneath the part section.
+1.4.5 The user is creating a custom PC within a budget restraint with each part having their individual price next to them which once selected totals up or down updated after each change in part. The total cost located on the bottom of the sidebar follows the user as they scroll up and down the page making it always accessible to the user.
 
 ## 2.0 Design choices
 
 ### 2.1 Fonts
 
+Titles and subtitles will be in Orbitron:
+
+[Orbitron](https://fonts.google.com/specimen/Orbitron?preview.text=Hydra%20PC%27s%20&preview.text_type=custom&query=Orbitron)
+
+Text will be in Noto Sans TC:
+
+[Noto Sans TC](https://fonts.google.com/specimen/Noto+Sans+TC?preview.text=Hydra%20PC%27s%20&preview.text_type=custom&query=Noto+Sans+TC)
+
 ### 2.2 Icons
+
+[Font awesome: ](https://fontawesome.com/icons?d=gallery&p=2&q=plane)
+
+- YouTube icon
+- Facebook icon
+- Instagram icon
+- Twitter icon
+- Home icon (Home page)
+- Computer icon (Build PC)
+- Phone icon (Contact us)
+- Shopping trolley icon (Checkout)
 
 ### 2.3 Colours
 
-### 2.4 Images and videos
+#0E0B16 - Primary colour (Void)  
+#4717F6 - Secondary #1 colour (Jewel)
+#A239CA - Secondary #2 colour (Fuschia)
+#E7DFDD - Background colour (Stark)
 
-### 2.5 Wireframes
+[Colours used #2 Neon tones](https://www.canva.com/learn/website-color-schemes/)
+
+### 2.4 Wireframes
 
 ## 3.0 Features
 
@@ -369,6 +393,12 @@ Additions:
 - Updated README project description
 - Updated UX README section
 
+### 6.26 Updated README user stories and design choices
+
+Additions:
+
+- Updated README user stories
+- Updated README design choices
 
 ## 7.0 Deployment
 
