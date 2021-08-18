@@ -95,8 +95,11 @@ Text will be in Noto Sans TC:
 ### 2.3 Colours
 
 #0E0B16 - Primary colour (Void)  
+
 #4717F6 - Secondary #1 colour (Jewel)
+
 #A239CA - Secondary #2 colour (Fuschia)
+
 #E7DFDD - Background colour (Stark)
 
 [Colours used #2 Neon tones](https://www.canva.com/learn/website-color-schemes/)
@@ -107,19 +110,55 @@ Text will be in Noto Sans TC:
 
 ### 3.1 Existing features
 
+- Functional checkout section - Full form for user to fill out their personal details and submit button to send email with their order summary
+- Build custom PC - 9 subsections with different parts to build up a full computer
+- Cost tracker when building PC - Tracks the user’s selected parts costs totaling all of the parts costs up or down
+- Functional slideshow - Intractable slideshow that auto shuffles as well as buttons for user to switch slides
+- Functional contact us form - Contact form for user’s details and message with submit button to send to user’s email
+- Selected part tracker - Each selected part is put into a list on the build PC sidebar that follows the user as they scroll so it always visible
+- Save PC list - Small form for name and email which when submitted send the list of PC parts through email
+- Animation - Hover and transition animation to give a more refined and less static user experience
+- Navbar and footer - On every page for user to quickly navigate the website constantly
+
 ### 3.2 Features left to implement
+
+- Find your PC questionnaire - Users could pick answers from 4 questions narrowing down pre-built PC’s to meet their requirements
+- More hardware subsections - Additional external and other hardware options
+- Sign up page - Page for users to sign up/into removing the need for returning users to fill out the same forms to save or contact hydra PC’s
 
 ## 4.0 Technologies used
 
 ### 4.1 HTML5
 
+This project uses HTML to structure its pages
+
 ### 4.2 CSS3
+
+This project uses CSS to style its pages
 
 ### 4.3 Bootstrap 4.5
 
+This project uses the bootstrap framework to further improve styling of its pages
+
 ### 4.4 JavaScript
 
+This project uses JS to be made interactable
+
 ### 4.5 jQuery
+
+This project uses jQuery to shorten the amount of JS being written for more efficient and readable code
+
+### 4.6 EmailJS
+
+EmailJS is used in this project for sending the user information such as custom PC spec lists, order conformations and contact us messages
+
+### 4.7 Balsamiq
+
+This project uses balsamiq to design the wireframes
+
+### 4.8 Github
+
+Github is used as a repository to upload the project to
 
 ## 5.0 Testing
 
@@ -399,6 +438,14 @@ Additions:
 
 - Updated README user stories
 - Updated README design choices
+
+### 6.27 Updated README existing feature/left to implement and technologies used
+
+Additions:
+
+- Updated README existing features
+- Updated README features left to implement
+- Updated README technologies used
 
 ## 7.0 Deployment
 
