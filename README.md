@@ -1,6 +1,6 @@
 # Hydra PC's - Project 2
 
-Hydra PC’s is a computer hardware online store that sells both pre built PC’s and custom made gaming PC’s. The website's goals are to create a PC builder where users can pick and choose parts for their personal rig that displays the parts price and some basic information for the specs. The website will also feature pre-built PC’s for those who lack hardware knowledge, through a questionnaire that will help find what the user needs and find the computer best tailored to their wants and needs.
+Hydra PC’s is a computer hardware store with a focus for custom bespoke gaming PC’s where users can pick and choose parts for their personal needs. The project's goals are to deliver a streamlined storefront for users to build up a PC from case to storage with a part tracker and price tracker to accompany it updating after each part is selected in the form of a list. The user can then go to checkout to complete their order or save the computer's specs by saving it by sending an email to them with the list of parts they chose.
 
 ## 1.0 UX
 
@@ -8,7 +8,7 @@ Hydra PC’s is a computer hardware online store that sells both pre built PC’
 
 #### 1.1.1 Target audience
 
-Hydra’s target audience are the PC gaming market from inexperienced people in need of guidance of what hardware they need to fill their needs, to experienced PC enthusiasts who want a high quality custom built rig with customer support to help with any future issues.
+Hydra PC’s target audience is the PC gaming market for users who want the pre-made quality built machine but with the flexibility of building their own PC from scratch with a wide array of PC parts to meet their needs and budgets.
 
 ### 1.2 User needs and goals
 
@@ -16,22 +16,28 @@ Hydra’s target audience are the PC gaming market from inexperienced people in 
 
 User needs:
 1. Accessibility for users
-2. Working contact/sign up page
-3. Pre built PC finder (Questionnaire thing)
-4. Custom PC part picker
-5. Total price that adds up the selected parts
-6. Images and links of the PC parts
+2. Responsive contact form page
+3. Custom PC part tracker
+4. Custom PC price tracker
+5. Build custom PC selector
+6. Images and info of the PC parts
 7. Company contact info
+8. Save PC part list
+9. Checkout page
+
 
 #### 1.2.2 How the user needs are met
 
-1. Alt tags for videos and images, text transcript, colour contrast, form labels, clear feedback for required forms fields * and device support.
-2. Contact/sign up page that sends and automated email to say that they have completed their sign up or complaint.
-3. A set of questions (form) that's goal is to find out the budget, wants and needs of the user to find them a pre-built computer.
-4. Sections with lists of computer parts that the user can select to create a PC.
-5. Each computer part has value (price) which is added together each time a part is selected.
-6. Images and links to the hardware’s website will be provided.
-7. Company contact information.
+1. Alt tags for videos and images, text transcript, colour contrast, form labels, clear feedback for required forms fields * and device support
+2. Contact page that sends and automated email to confirm that their enquiry had been received
+3. The user's selected parts a stored in a list for the user to see as they build their PC
+4. Selected parts each have a value (price) that is added or subtracted when a part is selected or changed
+5. The user can pick parts from 9 sections each with different hardware
+6. Images and information about the hardware will be provided
+7. Company contact information
+8. The user will be able to enter their email and name to send an email with their custom PC’s specs
+9. A page where the users custom PC’s price will display with a small overview of the product and a form for the user to complete the order
+
 
 ### 1.3 Developer and business goals
 
@@ -40,8 +46,8 @@ User needs:
 1. The website attracts both novice and adept users to PC hardware
 2. The website can retain the same traffic through word of mouth
 3. Sell Pre built computers
-4. Sell tailed computers at a premium
-5. To promote users to sign up
+4. Sell custom computers
+5. To promote users to build PC’s to their needs
 
 ### 1.4 User stories
 
@@ -353,6 +359,15 @@ Additions:
 - Improvements to nav-bar breakpoints
 - Improvements to footer breakpoints
 - Improvements to home page build breakpoints
+
+### 6.25 Updated breakpoints, customPc.js and README
+
+Additions:
+
+- Laptop nav-bar breakpoints
+- Changes to customPc.js
+- Updated README project description
+- Updated UX README section
 
 
 ## 7.0 Deployment

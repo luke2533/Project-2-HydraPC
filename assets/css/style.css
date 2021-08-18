@@ -35,6 +35,7 @@ footer {
   margin-top: 24px;
   font-size: 3.5em;
   color: white;
+  transition: 0.5s ease-in-out;
 }
 
 #nav-title:hover{
@@ -43,6 +44,7 @@ footer {
 
 #nav-title-2{
   color: #4717F6;
+  transition: 0.5s ease-in-out;
 }
 
 #nav-title-2:hover{
@@ -106,8 +108,20 @@ footer {
   width: auto;
 }
 
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
 /* Genral nav bar      END*/
+
+/* Laptop nav bar     */
+
+.nav-bar-laptop{
+  height: 125px;
+}
+
+/* Laptop nav bar      END*/
 
 /* Tablet nav bar */
 
@@ -343,7 +357,16 @@ footer {
   background-color: #0E0B16;
 }
 
+.collapse{
+  /* transition: 3s ease-in-out; */
+  /* max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out; */
+}
+
 .btn-collapse{
+  cursor: pointer;
+  transition: 1s ease-in-out;
   border: solid 1px black;
   padding: 5px;
   background-color: #0E0B16;
@@ -356,8 +379,6 @@ footer {
   color: #0E0B16;
   box-shadow: 0 0 10px #0E0B16;
 }
-
-
 
 /* Build PC tracker    END */
 
@@ -376,25 +397,29 @@ footer {
 
 .card-body{
   background-color: #0E0B16;
-}
 
+}
 
 .spec-list{
 /* For the div that surronds each part section */
 }
 
+.spec-name{
+  color: white;
+}
+
 .spec{
   /* FOR the radio buttons for each part */
-
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 
 .spec-cost{
   color: white;
-  font-size: 1.5em;
-}
-
-.spec-name{
-  color: white;
+  /* font-size: 1.5em; */
 }
 
 .pc-part{
@@ -412,8 +437,8 @@ footer {
 .pc-spec-img{
    max-width: 300px;
    max-height: 300px;
-
 }
+
 /* PC part picker    END */
 
 /* Contact Us  */
@@ -460,11 +485,16 @@ footer {
   display: flex;
   justify-content: center;
   border: black solid 1px;
-  padding: 50px;
+  padding: 25px;
   margin: 5px;
   background-color: #0E0B16;
   color: white;
 
+}
+
+.checkout-form input{
+  width: 100%;
+  clear: both;
 }
 
 .checkout-product{
@@ -473,10 +503,11 @@ footer {
   padding: 50px;
   background-color: #0E0B16;
   color: white;
+  text-align: center;
 }
 
 .billing-form{
-  margin: 5px;
+  margin: 3px;
   background-color: #CCC5C4;
 }
 
@@ -706,10 +737,14 @@ footer {
 /* Large devices (laptop) */
 
 @media screen and (max-width: 1023px){
-
+  .nav-laptop{
+    display: none;
+  }
 }
 @media screen and (min-width: 1023px){
-
+  .nav-tablet{
+    display: none;
+  }
 }
 
 /* Large devices (laptop)     END*/
@@ -744,7 +779,7 @@ footer {
 }
 
 @media screen and (min-width: 1439px){
-  .nav-tablet{
+  .nav-laptop{
     display: none;
   }
   .footer-tablet{

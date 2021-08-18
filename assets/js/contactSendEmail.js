@@ -9,6 +9,8 @@ function sendMail(contactForm) {
     function(response) {
       console.log("success", response);
       alert("Email sent");
+      // grab each elementbyid and cleatr interval
+      // Remove alert with div that goes from block to none
     },
     function(error) {
       console.log("failed", error)
