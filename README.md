@@ -162,17 +162,48 @@ Github is used as a repository to upload the project to
 
 ## 5.0 Testing
 
-### 5.1 Nav-bar
+### 5.1 Code validator
 
-### 5.2 Footer
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
 
-### 5.3 Home page
+### 5.2 Nav-bar
 
-### 5.4 Build your PC
+| Test  | Expected result | Pass/Fail |
+| ------- | --------- | ----------- |
+| Logo Link | Links to home page | Pass |
+| Title Link | Links to home page | Pass |
 
-### 5.5 Contact us
+### 5.3 Footer
 
-### 5.6 Checkout
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
+
+### 5.4 Home page
+
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
+
+### 5.5 Build your PC
+
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
+
+### 5.6 Contact us
+
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
+
+### 5.7 Checkout
+
+| Test  | Expected result | Pass/Fail |
+|-------|---------|-----------|
+|       |         |           |
 
 ## 6.0 Development life cycle
 
@@ -453,6 +484,20 @@ Additions:
 
 - Updated README credits content
 - Updated README credits code
+
+### 6.29 Home breakpoints, spec/part tracker works updated README
+
+Additions:
+
+- Home page pre built PC's breakpoints work
+- Updated README Testing
+- Spec tracker works
+- Part picker works
+
+Removed:
+
+- bpc-custom-pc.js
+- bpc-price-tracker.js
 
 ## 7.0 Deployment
 

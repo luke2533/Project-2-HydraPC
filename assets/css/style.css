@@ -51,6 +51,10 @@ footer {
   color: white;
 }
 
+.title-link{
+  font-family: "Orbitron", sans-serif;
+}
+
 .title-link:hover{
   color: #0E0B16;
 }
@@ -71,13 +75,15 @@ footer {
 .logo{
   width: 120px;
   border-radius: 50%;
-  transition: all 3s ease-in-out 0s;;
+  transition: all 3s ease-in-out 0s;
+  cursor: pointer;
 }
 
 .logo:hover{
     cursor: default;
     transform: rotate(360deg);
     transition: all 3s ease-in-out 0s;
+    cursor: pointer;
 }
 /* How to rotate an image with hover */
 /* https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover*/
@@ -301,22 +307,43 @@ footer {
 .top-pcs-desktop{
   max-height: 400px;
   max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-pcs-laptop{
+  max-height: 400px;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-pcs-tablet{
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 350px;
+  max-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-pcs-mobile{
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 250px;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-pcs-s-mobile{
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 200px;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 
 /* Pc recomadations      END*/
@@ -346,6 +373,7 @@ footer {
   width: 300px;
   padding: 5px;
   font-size: 12px;
+  color: white;
 }
 
 .price-tracker{
@@ -740,9 +768,15 @@ footer {
   .nav-laptop{
     display: none;
   }
+  .pc-card-laptop{
+    display: none;
+  }
 }
 @media screen and (min-width: 1023px){
   .nav-tablet{
+    display: none;
+  }
+  .pc-card-tablet{
     display: none;
   }
 }
@@ -788,7 +822,7 @@ footer {
   .top-pcs-tablet{
     display: none;
   }
-  .pc-card-tablet{
+  .pc-card-laptop{
     display: none;
   }
   .checkout-form-tablet{

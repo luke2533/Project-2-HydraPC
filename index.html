@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="assets/js/slideshow.js"></script>
     <title>Hydra PC's</title>
     <link rel="shortcut icon" href="assets/images/hydra-logo.jpg" type="image/x-icon">
@@ -126,7 +126,7 @@
             <a href="index.html"><img src="assets/images/hydra-logo.jpg" alt="Hydra PC's logo" class="logo-mobile"></a>
           </li>
           <li class="nav-item-mobile title-card-mobile">
-            <a href="index.html"><h1>Hydra <span style="color: #4717F6;">PC's</span></h1></a>
+            <a href="index.html" class="title-link"><h3 id="nav-title">Hydra <span id="nav-title-2">PC's</span></h3></a>
           </li>
         </ul>
 
@@ -218,7 +218,7 @@
               <h4>The ultimate gaming experience</h4>
             </div>
           </div>
-          
+
         </div>
         <a class="carousel-control-prev" href="#hydra-slide" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -293,45 +293,66 @@
       <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-desktop">
-            <span id="prePC12"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <span id="prePC1"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
 
           <div class="col-md-3 pc-card pc-card-desktop">
-            <span id="prePC13"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <span id="prePC2"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
 
           <div class="col-md-3 pc-card pc-card-desktop">
-            <span id="prePC9"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <span id="prePC3"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
         </div>
       </div>
 
 <!-- Desktop PC recomadations     END -->
 
+<!-- Laptop PC recomadations  -->
+
+
+      <div class="container-fluid">
+        <div class="row justify-content-center top-pc">
+          <div class="col-md-5 pc-card pc-card-laptop">
+            <span id="prePC4"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+
+          <div class="col-md-5 pc-card pc-card-laptop">
+            <span id="prePC5"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+
+          <div class="col-md-5 pc-card pc-card-laptop">
+            <span id="prePC6"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+        </div>
+      </div>
+
+<!-- Laptop PC recomadations     END -->
+
 <!-- Tablet PC recomadations  -->
 
 
       <div class="container-fluid">
         <div class="row justify-content-center top-pc">
-          <div class="col-md-10 pc-card pc-card-tablet">
-            <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-tablet">
-            <span id="prePC1"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+          <div class="col-md-8 pc-card pc-card-tablet">
+            <span id="prePC7"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
 
-          <div class="col-md-10 pc-card pc-card-tablet">
-            <img src="assets/images/prepc/cyberpower-pc-008.jpg" alt="INFINITY X119" class="top-pcs-tablet">
-            <span id="prePC13"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+          <div class="col-md-8 pc-card pc-card-tablet">
+            <span id="prePC8"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
 
-          <div class="col-md-10 pc-card pc-card-tablet">
-            <img src="assets/images/prepc/msi-forge-100r.jpg" alt="Reign Scout Ice" class="top-pcs-tablet">
+          <div class="col-md-8 pc-card pc-card-tablet">
             <span id="prePC9"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
         </div>
       </div>
@@ -344,21 +365,18 @@
       <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-mobile">
-            <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-mobile">
+            <span id="prePC10"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+
+          <div class="col-md-3 pc-card pc-card-mobile">
+            <span id="prePC11"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+
+          <div class="col-md-3 pc-card pc-card-mobile">
             <span id="prePC12"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
-          </div>
-
-          <div class="col-md-3 pc-card pc-card-mobile">
-            <img src="assets/images/prepc/cyberpower-pc-008.jpg" alt="INFINITY X119" class="top-pcs-mobile">
-            <span id="prePC13"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
-          </div>
-
-          <div class="col-md-3 pc-card pc-card-mobile">
-            <img src="assets/images/prepc/msi-forge-100r.jpg" alt="Reign Scout Ice" class="top-pcs-mobile">
-            <span id="prePC9"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
         </div>
       </div>
@@ -370,21 +388,18 @@
       <div class="container-fluid">
         <div class="row justify-content-center top-pc">
           <div class="col-md-3 pc-card pc-card-s-mobile">
-            <img src="assets/images/prepc/cyberpower-onyxia.jpg" alt="INFINITY X105" class="top-pcs-s-mobile">
-            <span id="prePC12"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
-          </div>
-
-          <div class="col-md-3 pc-card pc-card-s-mobile">
-            <img src="assets/images/prepc/cyberpower-pc-008.jpg" alt="INFINITY X119" class="top-pcs-s-mobile">
             <span id="prePC13"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
 
           <div class="col-md-3 pc-card pc-card-s-mobile">
-            <img src="assets/images/prepc/msi-forge-100r.jpg" alt="Reign Scout Ice" class="top-pcs-s-mobile">
-            <span id="prePC9"></span>
-            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now!</button>
+            <span id="prePC14"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
+          </div>
+
+          <div class="col-md-3 pc-card pc-card-s-mobile">
+            <span id="prePC15"></span>
+            <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Buy now</button>
           </div>
         </div>
       </div>

@@ -44,7 +44,8 @@ const prePC = {
 
     },
     prePC4 : {
-      image:"<img src='assets/images/prepc/lian-215.jpg' alt='ULTRA R57 ELITE GAMING PC' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/lian-215.jpg' alt='ULTRA R57 ELITE GAMING PC' class='top-pcs-laptop'>",
+      name:"<h1>ULTRA R57 ELITE GAMING PC</h1>",
       case:"<p>Lian Li Lancool-215</p>",
       cpu:"<p>Ryzen 7 5800X - 8-Core 3.80GHz, 4.7GHz Turbo - 32MB L3 Cache</p>",
       gpu:"<p>Radeon RX 6700 XT 12GB</p>",
@@ -58,7 +59,7 @@ const prePC = {
 
     },
     prePC5 : {
-      image:"<img src='assets/images/prepc/lian-215.jpg' alt='INFINITY X115 GAMING PC' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/lian-215.jpg' alt='INFINITY X115 GAMING PC' class='top-pcs-laptop'>",
       name:"<h1>INFINITY X115 GAMING PC</h1>",
       case:"<p>Lian Li Lancool-215</p>",
       cpu:"<p>i5-11400 - 6-Core 2.6GHz, 4.4GHz Turbo - 12MB L3 Cache</p>",
@@ -73,7 +74,7 @@ const prePC = {
 
     },
     prePC6 : {
-      image:"<img src='assets/images/prepc/msi-vamp-010.jpg' alt='ULTRA R35 ELITE GAMING PC' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/msi-vamp-010.jpg' alt='ULTRA R35 ELITE GAMING PC' class='top-pcs-laptop'>",
       name:"<h1>ULTRA R35 ELITE GAMING PC</h1>",
       case:"<p>MSI Vampiric 010</p>",
       cpu:"<p>Ryzen 5 3600 6-core 3.6 GHz, 4.2GHz Turbo - 32MB L3 Cache</p>",
@@ -88,7 +89,7 @@ const prePC = {
 
     },
     prePC7 : {
-      image:"<img src='assets/images/prepc/nzxt-h710.jpg' alt='Reign Vanguard Extreme MKII' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/nzxt-h710.jpg' alt='Reign Vanguard Extreme MKII' class='top-pcs-tablet'>",
       name:"<h1>Reign Vanguard Extreme MKII</h1>",
       case:"<p>NZXT H710 ATX</p>",
       cpu:"<p>i9 - 11900K - 8-Core 3.5GHz, 5.1GHz Turbo - 16MB L3 Cache</p>",
@@ -103,7 +104,7 @@ const prePC = {
 
     },
     prePC8 : {
-      image:"<img src='assets/images/prepc/msi-vamp-100r.jpg' alt='Reign Scout Pro' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/msi-vamp-100r.jpg' alt='Reign Scout Pro' class='top-pcs-tablet'>",
       name:"<h1>Reign Scout Pro</h1>",
       case:"<p>MSI MAG VAMPIRIC 100R ARGB</p>",
       cpu:"<p>i3 - 10100 - 4-Core 3.6GHz, 4.3GHz Turbo - 6MB L3 Cache</p>",
@@ -118,7 +119,7 @@ const prePC = {
 
     },
     prePC9 : {
-      image:"<img src='assets/images/prepc/msi-forge-100r.jpg' alt='Reign Scout Ice' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/msi-forge-100r.jpg' alt='Reign Scout Ice' class='top-pcs-tablet'>",
       name:"<h1>Reign Scout Ice</h1>",
       case:"<p>MSI MAG FORGE 100R</p>",
       cpu:"<p>i5- - 11400F - 6-Core 2.6GHz, 4.4GHz Turbo - 12MB L3 Cache</p>",
@@ -133,7 +134,7 @@ const prePC = {
 
     },
     prePC10 : {
-      image:"<img src='assets/images/prepc/corsair-500d.jpg' alt='TOPAZ ULTRA' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/corsair-500d.jpg' alt='TOPAZ ULTRA' class='top-pcs-mobile'>",
       name:"<h1>TOPAZ ULTRA</h1>",
       case:"<p>CORSAIR OBSIDIAN SERIES™ 500D SE CASE</p>",
       cpu:"<p>Ryzen 9 5900X 12-Core 3.7GHz, 4.8 GHz Turbo - 64MB L3 Cache</p>",
@@ -148,7 +149,7 @@ const prePC = {
 
     },
     prePC11 : {
-      image:"<img src='assets/images/prepc/corsair-175r.jpg' alt='TOPAZ ELITE' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/corsair-175r.jpg' alt='TOPAZ ELITE' class='top-pcs-mobile'>",
       name:"<h1>TOPAZ ELITE</h1>",
       case:"<p>CORSAIR 175R RGB</p>",
       cpu:"<p>Ryzen 6 5600X 6-Core 3.7GHz, 4.6GHz Turbo - 32MB L3 Cache</p>",
@@ -163,7 +164,7 @@ const prePC = {
 
     },
     prePC12 : {
-      image:"<img src='assets/images/prepc/cyberpower-onyxia.jpg' alt='INFINITY X105' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/cyberpower-onyxia.jpg' alt='INFINITY X105' class='top-pcs-mobile'>",
       name:"<h1>INFINITY X105</h1>",
       case:"<p>Cyberpower ONYXIA</p>",
       cpu:"<p>i5-11400F - 6-Core 2.9GHz, 4.3GHz Turbo - 12MB L3 Cache</p>",
@@ -178,7 +179,7 @@ const prePC = {
 
     },
     prePC13 : {
-      image:"<img src='assets/images/prepc/cyberpower-pc-008.jpg' alt='INFINITY X119' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/cyberpower-pc-008.jpg' alt='INFINITY X119' class='top-pcs-s-mobile'>",
       name:"<h1>INFINITY X119</h1>",
       case:"<p>Cyberpower Lancool PC-008</p>",
       cpu:"<p>i9 - 11900K - 8-Core 3.5GHz, 5.1GHz Turbo - 16MB L3 Cache</p>",
@@ -193,7 +194,7 @@ const prePC = {
 
     },
     prePC14 : {
-      image:"<img src='assets/images/prepc/phanteks-p400.jpg' alt='FIREFLY ENTHUSIAST' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/phanteks-p400.jpg' alt='FIREFLY ENTHUSIAST' class='top-pcs-s-mobile'>",
       name:"<h1>FIREFLY ENTHUSIAST</h1>",
       case:"<p>Phanteks Eclipse P400</p>",
       cpu:"<p>i7 - 9700K -  8-Core 3.60GHz, 4.9GHz Turbo - 12MB L3 Cache</p>",
@@ -208,7 +209,7 @@ const prePC = {
 
     },
     prePC15 :{
-      image:"<img src='assets/images/prepc/kolink-castle.jpg' alt='ENIGMA ENTHUSIAST' class='top-pcs-desktop'>",
+      image:"<img src='assets/images/prepc/kolink-castle.jpg' alt='ENIGMA ENTHUSIAST' class='top-pcs-s-mobile'>",
       name:"<h1>ENIGMA ENTHUSIAST</h1>",
       case:"<p>Kolink Castle</p>",
       cpu:"<p>Ryzen 7 3700X - 8-Core 3.6GHz, 4.4GHz Turbo - 32 L3MB Cache </p>",
@@ -270,10 +271,6 @@ const prePC = {
 
 }
 
-// var randomPc = function(obj) {
-//   var keys = Object.keys(obj);
-//   return obj[keys[ keys.length * Math.random() << 0]];
-// };
 
 // Slack
 

@@ -3,13 +3,14 @@ var customPc = {
   "case": "",
   "cpu": "",
   "gpu": "",
-  "motherboard": "",
-  "ram": "",
-  "pcu": "",
-  "ssd": "",
-  "m2": "",
-  "hdd": "",
+  "motherboard":"",
+  "ram":"",
+  "pcu":"",
+  "ssd":"",
+  "m2":"",
+  "hdd":"",
 }
+
 
 buildPc = [
   ["case", "input[name='case']", "customPc-case", "Case: ", "data-price"],
@@ -25,36 +26,58 @@ buildPc = [
 
 
 
-for (var i = 0; i < buildPc.length; i ++){
+for (var i = 0; i < buildPc.length; i++) {
 
   var $generalSpec = $(buildPc[i][1]);
+  var $totalSpec = $(buildPc[i][4])
   $generalSpec.change(function(value){
-      // Code goes below
+    /* All code below here */
 
     console.log(value.target.name);
-    for (var i = 0; i < buildPc.length; i ++){
-      if (buildPC[i][0] == value.target.name){
-        // This gets buildPC contents and populates them
-        console.log(buildPC[1]);
+
+    for (var i = 0; i < buildPc.length; i++){
+      if (buildPc[i][0] == value.target.name) {
+        // Get buildPc contents and populate in div side menu
+        console.log(buildPc[i]);
         console.log(value);
-        // Place whatever contetns you want to the menu now from list above
-        customPC[value.target.name] = value.target.value;
-        console.log(customPC);
-        populateTracker();
+        // Place whatever contents you want to the menu now from list above
+        customPc[value.target.name] = value.target.value;
+        console.log(customPc);
+        populateSideMenu();
+
+      // This is where you put the total cost
+        $totalSpec.change(function(dataset){
+
+          console.log(dataset.target.name);
+
+          for (var i = 0; i < buildPc.length; i++){
+            if(buildPc[i][0] == dataset.target.name){
+              console.log(dataset)
+
+
+            }
+          }
+        });
       }
     }
-    //Finally check the item
+    // Finally check the item
     $(this).prop("checked");
+    /* All code above here */
   });
 }
-function populateTracker(){
-  $("#customPc-case").html(customPC["case"]);
-  $("#customPc-cpu").html(customPC["cpu"]);
-  $("#customPc-gpu").html(customPC["gpu"]);
-  $("#customPc-motherboard").html(customPC["motherboard"]);
-  $("#customPc-ram").html(customPC["ram"]);
-  $("#customPc-pcu").html(customPC["pcu"]);
-  $("#customPc-ssd").html(customPC["ssd"]);
-  $("#customPc-m2").html(customPC["m2"]);
-  $("#customPc-hdd").html(customPC["hdd"]);
+
+function populateSideMenu() {
+  $("#customPc-case").html(customPc["case"]);
+  $("#customPc-cpu").html(customPc["cpu"]);
+  $("#customPc-gpu").html(customPc["gpu"]);
+  $("#customPc-motherboard").html(customPc["motherboard"]);
+  $("#customPc-ram").html(customPc["ram"]);
+  $("#customPc-pcu").html(customPc["pcu"]);
+  $("#customPc-ssd").html(customPc["ssd"]);
+  $("#customPc-m2").html(customPc["m2"]);
+  $("#customPc-hdd").html(customPc["hdd"]);
+}
+
+function totalCost(){
+  $("#totalCost").html(totalSpec);
 }
