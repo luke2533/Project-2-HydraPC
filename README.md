@@ -165,13 +165,15 @@ Github is used as a repository to upload the project to
 ### 5.1 Code validator
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
-|       |         |           |
+| --------------- | ----------------------------------------------------------------- | --------- |
+| HTML validator | All pages pass the validator |  |
+| CSS validator | All pages pass the validator |  |
+| JS validator | All pages pass the validator |  |
 
 ### 5.2 Nav-bar
 
 | Test  | Expected result | Pass/Fail |
-| ------- | --------- | ----------- |
+| --------------- | ----------------------------------------------------------------- | --------- |
 | Logo Link | Links to home page | Pass |
 | Title Link | Links to home page | Pass |
 | Home button | Links to home page | Pass |
@@ -183,21 +185,21 @@ Github is used as a repository to upload the project to
 ### 5.3 Footer
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
-| Facebook link | Links to Facebook page in another tab| Pass |
-| YouTube link | Links to YouTube page in another tab| Pass |
-| Twitter link | Links to Twitter page in another tab| Pass |
+| --------------- | ----------------------------------------------------------------- | --------- |
+| Facebook link | Links to Facebook page in another tab | Pass |
+| YouTube link | Links to YouTube page in another tab | Pass |
+| Twitter link | Links to Twitter page in another tab | Pass |
 | Instagram link | Links to Instagram page in another tab| Pass |
-| link | Links to home page | Pass |
-| link | Links to custom PC page | Pass |
-| link | Links to checkout page | Pass |
-| link | Links to contact us page | Pass |
+| Home link | Links to home page | Pass |
+| Custom PC link | Links to custom PC page | Pass |
+| Checkout link | Links to checkout page | Pass |
+| Contact us link | Links to contact us page | Pass |
 | Breakpoints | Responsive to all devices | Pass |
 
 ### 5.4 Home page
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
+| --------------- | ----------------------------------------------------------------- | --------- |
 | Slideshow | Left and right buttons | Fail |
 | Build PC button | Links to custom PC page | Pass |
 | Pre-built PC's | Links to checkout | Pass |
@@ -206,20 +208,40 @@ Github is used as a repository to upload the project to
 ### 5.5 Build your PC
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
-||||
+| --------------- | ----------------------------------------------------------------- | --------- |
+| Checkout button | Links user to checkout page | Pass |
+| Collapse all / Expand all button | Collapse or Expands all sections | Fail |
+| Input boxes work | The user can enter their details | Pass |
+| Submit button | When the user clicks the submit button it sends the user an email | Fail |
+| EmailJS | The user is sent an email with their custom PC | Fail |
+| Part subsections | Expand and collapse when clicked | Pass |
+| Part selected | Selected part displays on part tracker | Pass |
+| Change in part selected | Changed part replaces old part | Pass |
+| Cost tracker | Cost of selected part displays on total cost section | Pass |
+| Cost updated | When another part is selected or changed the price updates to new total | Pass |
+| Sidebar | Sidebar follows user down the page | Fail |
+| Breakpoints | Responsive to all devices | Fail |
 
 ### 5.6 Contact us
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
-||||
+| --------------- | ----------------------------------------------------------------- | --------- |
+| Input boxes work | The user can enter their details | Pass |
+| Alert for required boxes | User is alerted if they need to fill in box | Pass |
+| Submit button | When the user clicks the submit button it sends the user an email | Pass |
+| EmailJS | The user is sent an email with their message | Pass |
+| Breakpoints | Responsive to all devices | Pass |
 
 ### 5.7 Checkout
 
 | Test  | Expected result | Pass/Fail |
-|-------|---------|-----------|
-||||
+| --------------- | ----------------------------------------------------------------- | --------- |
+| Input boxes work | The user can enter their details | Pass |
+| Alert for required boxes | User is alerted if they need to fill in box | Pass |
+| Submit button | When the user clicks the submit button it sends the user an email | Pass |
+| EmailJS | The user is sent an email with their order summary | Fail |
+| Shipping cost | The user selects a shipping cost added to their total cost | Fail |
+| Breakpoints | Responsive to all devices | Pass |
 
 ## 6.0 Development life cycle
 
@@ -525,6 +547,15 @@ Additions:
 - Updated README Nav-bar testing
 - Updated README Footer testing
 - Updated README Home page testing
+
+### 6.31 Updated README testing code validation, custom PC, checkout and contact
+
+Addtions:
+
+- Updated README Custom pc testing
+- Updated README Code validation testing
+- Updated README Checkout testing
+- Updated README Contact us testing
 
 ## 7.0 Deployment
 
