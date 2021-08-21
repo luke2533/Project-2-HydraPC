@@ -23,6 +23,7 @@ footer {
   font-weight: 100;
   height: 200px;
   color: white;
+  display: block;
 }
 
 
@@ -413,6 +414,10 @@ footer {
   font-weight: 400;
 }
 
+.sidebar-background{
+  background-color: #0E0B16;
+}
+
 .custom-sidebar{
   height: 100%;
   width: 20%;
@@ -421,6 +426,7 @@ footer {
   overflow: hidden;
   top: -1;
   left: 0;
+  margin-bottom: 20px;
   padding-top: 40px;
   padding: 5px;
   background: #E6E6E6;
@@ -640,6 +646,11 @@ footer {
   color: #A239CA;
 }
 
+.footer-custom-desktop{
+  width: 80%;
+  float: right;
+}
+
 /* Desktop footer       END */
 
 /* Tablet footer */
@@ -657,6 +668,23 @@ footer {
 .footer-icon-tablet:hover{
   color: #A239CA;
 }
+
+.footer-custom-tablet{
+  width: 62.5%;
+  float: right;
+}
+
+.footer-custom-icon-tablet{
+  padding: 5px;
+  font-size: 2em;
+  color: #4717F6;
+}
+
+.footer-custom-col-tablet{
+  margin-top: 10px;
+}
+
+
 
 /* Tablet footer      END */
 
@@ -678,6 +706,21 @@ footer {
 
 .footer-title-mobile{
   font-size: 1.45em;
+}
+
+.footer-custom-mobile{
+  width: 62.5%;
+  float: right;
+}
+
+.footer-custom-icon-mobile{
+  padding: 5px;
+  font-size: 1.45em;
+  color: #4717F6;
+}
+
+.footer-custom-col-mobile{
+  margin-top: 20px;
 }
 
 /* Mobile footer    END */
@@ -703,6 +746,21 @@ footer {
   font-size: 1.5em;
 }
 
+.footer-custom-s-mobile{
+  width: 62.5%;
+  float: right;
+}
+
+.footer-custom-icon-s-mobile{
+  padding: 5px;
+  font-size: 1.45em;
+  color: #4717F6;
+}
+
+.footer-custom-col-s-mobile{
+  margin-top: 20px;
+}
+
 /* Small mobile footer    END */
 
 /* Breakpoints */
@@ -719,7 +777,6 @@ footer {
   .pc-card-mobile{
     display: none;
   }
-
   .contact-box-mobile{
     display: none;
   }
@@ -729,33 +786,53 @@ footer {
   .footer-col-mobile{
     display: none;
   }
+  .footer-custom-col-mobile{
+    display: none;
+  }
   .carousel-mobile{
     display: none;
   }
   /* Small mobile custom PC page breakpoints */
-    .pc-spec-img{
-      width: 150px;
-    }
-    .pc-part{
-      padding: 100px;
-      padding-top: 25px;
-      padding-bottom: 25px;
-    }
     h4{
-      font-size: 1em;
+      font-size: 0.8em;
     }
     h3{
-      font-size: 1.5em;
+      font-size: 0.5em;
     }
     h2{
       font-size: 1.5em;
     }
-    .build-pc{
-      width: 40%;
+    #build-title{
+      font-size: 0.95em;
+      font-weight: 700;
+      text-align: center;
     }
-    .custom-sidebar{
-      width: 60%;
+    .pc-spec-img{
+      width: 150px;
     }
+    .hydra-btn{
+      padding: 0px;
+      font-size: 0.3em;
+      margin: 1px;
+      font-weight: 100;
+      min-width: 95px;
+    }
+    .custom-form{
+      font-size: 0.4em;
+      font-weight: 100;
+      min-width: 95px;
+      margin: 0px;
+    }
+    .spec-tracker{
+      font-size: 0.5em;
+    }
+    .price-tracker{
+      font-size: 0.8em;
+    }
+    .mobile-br{
+      display: none;
+    }
+
   /* Small mobile custom PC page breakpoints  END */
 }
 
@@ -769,11 +846,13 @@ footer {
   .pc-card-s-mobile{
     display: none;
   }
-
   .contact-box-s-mobile{
     display: none;
   }
   .footer-col-s-mobile{
+    display: none;
+  }
+  .footer-custom-col-s-mobile{
     display: none;
   }
   .carousel-s-mobile{
@@ -813,28 +892,37 @@ footer {
     display: none;
   }
   /* Mobile custom PC page breakpoints */
+    h4{
+      font-size: 0.5em;
+    }
+    h2{
+      font-size: 1.4em;
+    }
     .pc-spec-img{
       width: 190px;
     }
-    .pc-part{
-      padding: 100px;
-      padding-top: 25px;
-      padding-bottom: 25px;
-    }
-    h3{
-      font-size: 1.5em;
-    }
-    h3{
-      font-size: 1.5em;
-    }
-    h2{
-      font-size: 1.5em;
-    }
     .build-pc{
-      width: 60%;
+      width: 55%;
     }
     .custom-sidebar{
-      width: 40%;
+      width: 45%;
+    }
+    .hydra-btn{
+      padding: 5px;
+      font-size: 0.8em;
+      margin: 1px;
+    }
+    .custom-form{
+      margin: 1px;
+      padding: 1px;
+      max-width: 130px;
+      font-size: 0.8em;
+    }
+    .spec-tracker{
+      font-size: 0.5em;
+    }
+    .price-tracker{
+      font-size: 0.8em;
     }
   /* Mobile custom PC page breakpoints  END */
 
@@ -880,9 +968,7 @@ footer {
     height: 550px;
   }
   /* Tablet slide show    END */
-
 }
-
 
 /* Medium devices (tablet)     END*/
 
@@ -896,22 +982,29 @@ footer {
     display: none;
   }
   /* Tablet custom PC page breakpoints */
-    .pc-spec-img{
-      width: 190px;
-    }
-    .pc-part{
-      padding: 100px;
-      padding-top: 25px;
-      padding-bottom: 25px;
-    }
     h3{
       font-size: 1.5em;
+    }
+    h4{
+      font-size: 1.5em;
+    }
+    #totalCost{
+      font-size: 1.6em;
+    }
+    .pc-spec-img{
+      width: 180px;
+    }
+    .pc-part{
+      max-width: 300px;
     }
     .build-pc{
       width: 65%;
     }
     .custom-sidebar{
       width: 35%;
+    }
+    .spec-tracker{
+      max-height: 375px;
     }
 /* Tablet custom PC page breakpoints  END */
 }
@@ -957,6 +1050,32 @@ footer {
   .carousel-desktop{
     display: none;
   }
+  /* Tablet custom PC page breakpoints */
+    h3{
+      font-size: 1.5em;
+    }
+    h4{
+      font-size: 1.5em;
+    }
+    #totalCost{
+      font-size: 1.6em;
+    }
+    .pc-spec-img{
+      width: 180px;
+    }
+    .pc-part{
+      max-width: 300px;
+    }
+    .build-pc{
+      width: 65%;
+    }
+    .custom-sidebar{
+      width: 35%;
+    }
+    .spec-tracker{
+      max-height: 375px;
+    }
+/* Tablet custom PC page breakpoints  END */
 
 }
 
@@ -982,6 +1101,7 @@ footer {
   .carousel-tablet{
     display: none;
   }
+
 
 }
 

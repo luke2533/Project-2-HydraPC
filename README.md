@@ -110,51 +110,51 @@ Text will be in Noto Sans TC:
 
 Home desktop wireframe
 
-[Home page desktop](assets/wireframe/Home-desktop.png)
+![Home page desktop](assets/wireframe/Home-desktop.png)
 
 Home tablet wireframe
 
-[Home page tablet](assets/wireframe/Home-tablet.png)
+![Home page tablet](assets/wireframe/Home-tablet.png)
 
 Home mobile wireframe
 
-[Home page mobile](assets/wireframe/Home-mobile.png)
+![Home page mobile](assets/wireframe/Home-mobile.png)
 
 Custom PC desktop wireframe
 
-[Custom PC page desktop](assets/wireframe/Custom-PC-desktop.png)
+![Custom PC page desktop](assets/wireframe/Custom-PC-desktop.png)
 
 Custom PC tablet wireframe
 
-[Custom PC page tablet](assets/wireframe/Custom-PC-tablet.png)
+![Custom PC page tablet](assets/wireframe/Custom-PC-tablet.png)
 
 Custom PC mobile wireframe
 
-[Custom PC page mobile](assets/wireframe/Custom-PC-mobile.png)
+![Custom PC page mobile](assets/wireframe/Custom-PC-mobile.png)
 
 Checkout desktop wireframe
 
-[Checkout page desktop](assets/wireframe/Checkout-desktop.png)
+![Checkout page desktop](assets/wireframe/Checkout-desktop.png)
 
 Checkout tablet wireframe
 
-[Checkout page tablet](assets/wireframe/Checkout-tablet.png)
+![Checkout page tablet](assets/wireframe/Checkout-tablet.png)
 
 Checkout mobile wireframe
 
-[Checkout page mobile](assets/wireframe/Checkout-mobile.png)
+![Checkout page mobile](assets/wireframe/Checkout-mobile.png)
 
 Contact us desktop wireframe
 
-[Contact us page desktop](assets/wireframe/Contact-us-desktop.png)
+![Contact us page desktop](assets/wireframe/Contact-us-desktop.png)
 
 Contact us tablet wireframe
 
-[Contact us page tablet](assets/wireframe/Contact-us-tablet.png)
+![Contact us page tablet](assets/wireframe/Contact-us-tablet.png)
 
 Contact us mobile wireframe
 
-[Contact us page mobile](assets/wireframe/Contact-us-mobile.png)
+![Contact us page mobile](assets/wireframe/Contact-us-mobile.png)
 
 ### 2.5 Mockups
 
@@ -271,8 +271,8 @@ Github is used as a repository to upload the project to
 | Change in part selected | Changed part replaces old part | Pass |
 | Cost tracker | Cost of selected part displays on total cost section | Pass |
 | Cost updated | When another part is selected or changed the price updates to new total | Pass |
-| Sidebar | Sidebar follows user down the page | Fail |
-| Breakpoints | Responsive to all devices | Fail |
+| Sidebar | Sidebar follows user down the page | Pass |
+| Breakpoints | Responsive to all devices | Pass |
 
 ### 5.6 Contact us
 
@@ -632,6 +632,14 @@ Additions:
 - Checkout total price Functional
 - EmailJS checkout summary Functional
 - EmailJS save custom PC Functional
+- Updated README testing
+
+### 6.35 Custom PC breakpoints and footer issues resolved, README updated
+
+Additions:
+
+- Custom PC page sidebar footer problem fixed
+- Custom PC page breakpoints complete
 - Updated README testing
 
 ## 7.0 Deployment
