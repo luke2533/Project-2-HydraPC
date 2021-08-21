@@ -23,6 +23,7 @@ footer {
   font-weight: 100;
   height: 200px;
   color: white;
+  /* position: relative; */
 }
 
 
@@ -135,6 +136,21 @@ footer {
   margin: 5px;
   margin-top: 20px;
   font-size: 2em;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-title-tablet:hover{
+  color: #4717F6;
+}
+
+#nav-title-tablet-2{
+  color: #4717F6;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-title-tablet-2:hover{
+  color: white;
 }
 
 #nav-contact-tablet{
@@ -184,6 +200,27 @@ footer {
 
 #nav-center-mobile{
   justify-content: space-evenly;
+}
+
+#nav-title-mobile{
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 2em;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-title-mobile:hover{
+  color: #4717F6;
+}
+
+#nav-title-mobile-2{
+  color: #4717F6;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-title-mobile-2:hover{
+  color: white;
 }
 
 .nav-border-mobile{
@@ -354,6 +391,11 @@ footer {
   position: relative;
 }
 
+#build-title{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
 .custom-sidebar{
   height: 100%;
   width: 20%;
@@ -365,6 +407,7 @@ footer {
   background: #E6E6E6;
   border: solid 3px black;
 }
+
 
 .spec-tracker{
   border: solid 1px black;
@@ -383,13 +426,7 @@ footer {
   width: 300px;
   border: solid 1px black;
   background-color: #0E0B16;
-}
-
-.collapse{
-  /* transition: 3s ease-in-out; */
-  /* max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in-out; */
+  color: white;
 }
 
 .btn-collapse{
@@ -406,6 +443,14 @@ footer {
   background-color: #A239CA;
   color: #0E0B16;
   box-shadow: 0 0 10px #0E0B16;
+}
+
+.custom-sidebar h4{
+  font-family: "Orbitron", sans-serif;
+}
+
+.custom-form{
+  /* margin: 3px; */
 }
 
 /* Build PC tracker    END */
@@ -443,11 +488,13 @@ footer {
   width: 25px;
   background-color: #eee;
   border-radius: 50%;
+  margin: 5px;
+
 }
 
 .spec-cost{
   color: white;
-  /* font-size: 1.5em; */
+  font-family: "Orbitron", sans-serif;
 }
 
 .pc-part{
@@ -664,8 +711,28 @@ footer {
   .footer-col-mobile{
     display: none;
   }
+  /* Small mobile custom PC page breakpoints */
+    .pc-spec-img{
+      width: 150px;
+    }
+    .pc-part{
+      padding: 100px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    .build-pc{
+      width: 40%;
+    }
+    .custom-sidebar{
+      width: 60%;
+    }
+  /* Small mobile custom PC page breakpoints  END */
 
 }
+
 @media screen and (min-width: 424px){
   .nav-s-moblile{
     display: none;
@@ -688,6 +755,7 @@ footer {
   .footer-col-s-mobile{
     display: none;
   }
+
 
 }
 
@@ -723,8 +791,28 @@ footer {
   .build-desktop{
     display:none;
   }
+  /* Mobile custom PC page breakpoints */
+    .pc-spec-img{
+      width: 190px;
+    }
+    .pc-part{
+      padding: 100px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    .build-pc{
+      width: 60%;
+    }
+    .custom-sidebar{
+      width: 40%;
+    }
+  /* Mobile custom PC page breakpoints  END */
 
 }
+
 @media screen and (min-width: 767px){
   .nav-mobile{
     display: none;
@@ -757,6 +845,7 @@ footer {
     display:none;
   }
 
+
 }
 
 
@@ -771,6 +860,25 @@ footer {
   .pc-card-laptop{
     display: none;
   }
+  /* Tablet custom PC page breakpoints */
+    .pc-spec-img{
+      width: 190px;
+    }
+    .pc-part{
+      padding: 100px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    .build-pc{
+      width: 65%;
+    }
+    .custom-sidebar{
+      width: 35%;
+    }
+/* Tablet custom PC page breakpoints  END */
 }
 @media screen and (min-width: 1023px){
   .nav-tablet{
@@ -780,6 +888,7 @@ footer {
     display: none;
   }
 }
+
 
 /* Large devices (laptop)     END*/
 
@@ -810,6 +919,8 @@ footer {
   .footer-col-desktop{
     display: none;
   }
+
+
 }
 
 @media screen and (min-width: 1439px){
@@ -837,6 +948,8 @@ footer {
   .footer-col-tablet{
     display: none;
   }
+
+
 }
 
 /* Extra large devices (desktop)    END*/

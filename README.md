@@ -174,36 +174,52 @@ Github is used as a repository to upload the project to
 | ------- | --------- | ----------- |
 | Logo Link | Links to home page | Pass |
 | Title Link | Links to home page | Pass |
+| Home button | Links to home page | Pass |
+| Build PC button | Links to build PC | Pass |
+| Checkout | Links to checkout page | Pass |
+| Contact Us | Links to contact page | Pass |
+| Breakpoints | Responsive to all devices | Pass |
 
 ### 5.3 Footer
 
 | Test  | Expected result | Pass/Fail |
 |-------|---------|-----------|
-|       |         |           |
+| Facebook link | Links to Facebook page in another tab| Pass |
+| YouTube link | Links to YouTube page in another tab| Pass |
+| Twitter link | Links to Twitter page in another tab| Pass |
+| Instagram link | Links to Instagram page in another tab| Pass |
+| link | Links to home page | Pass |
+| link | Links to custom PC page | Pass |
+| link | Links to checkout page | Pass |
+| link | Links to contact us page | Pass |
+| Breakpoints | Responsive to all devices | Pass |
 
 ### 5.4 Home page
 
 | Test  | Expected result | Pass/Fail |
 |-------|---------|-----------|
-|       |         |           |
+| Slideshow | Left and right buttons | Fail |
+| Build PC button | Links to custom PC page | Pass |
+| Pre-built PC's | Links to checkout | Pass |
+| Breakpoints | Responsive to all devices | Fail |
 
 ### 5.5 Build your PC
 
 | Test  | Expected result | Pass/Fail |
 |-------|---------|-----------|
-|       |         |           |
+||||
 
 ### 5.6 Contact us
 
 | Test  | Expected result | Pass/Fail |
 |-------|---------|-----------|
-|       |         |           |
+||||
 
 ### 5.7 Checkout
 
 | Test  | Expected result | Pass/Fail |
 |-------|---------|-----------|
-|       |         |           |
+||||
 
 ## 6.0 Development life cycle
 
@@ -498,6 +514,17 @@ Removed:
 
 - bpc-custom-pc.js
 - bpc-price-tracker.js
+
+### 6.30 Updated README testing, total cost functional and spec cards complete
+
+Additions:
+
+- Spec cards completed
+- Total cost functional
+- Progress on custom PC breakpoints
+- Updated README Nav-bar testing
+- Updated README Footer testing
+- Updated README Home page testing
 
 ## 7.0 Deployment
 
