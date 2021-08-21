@@ -106,6 +106,58 @@ Text will be in Noto Sans TC:
 
 ### 2.4 Wireframes
 
+[Wireframe pdf](assets/wireframe/Hydra-pc-wireframe.pdf)
+
+Home desktop wireframe
+
+[Home page desktop](assets/wireframe/Home-desktop.png)
+
+Home tablet wireframe
+
+[Home page tablet](assets/wireframe/Home-tablet.png)
+
+Home mobile wireframe
+
+[Home page mobile](assets/wireframe/Home-mobile.png)
+
+Custom PC desktop wireframe
+
+[Custom PC page desktop](assets/wireframe/Custom-PC-desktop.png)
+
+Custom PC tablet wireframe
+
+[Custom PC page tablet](assets/wireframe/Custom-PC-tablet.png)
+
+Custom PC mobile wireframe
+
+[Custom PC page mobile](assets/wireframe/Custom-PC-mobile.png)
+
+Checkout desktop wireframe
+
+[Checkout page desktop](assets/wireframe/Checkout-desktop.png)
+
+Checkout tablet wireframe
+
+[Checkout page tablet](assets/wireframe/Checkout-tablet.png)
+
+Checkout mobile wireframe
+
+[Checkout page mobile](assets/wireframe/Checkout-mobile.png)
+
+Contact us desktop wireframe
+
+[Contact us page desktop](assets/wireframe/Contact-us-desktop.png)
+
+Contact us tablet wireframe
+
+[Contact us page tablet](assets/wireframe/Contact-us-tablet.png)
+
+Contact us mobile wireframe
+
+[Contact us page mobile](assets/wireframe/Contact-us-mobile.png)
+
+### 2.5 Mockups
+
 ## 3.0 Features
 
 ### 3.1 Existing features
@@ -557,13 +609,21 @@ Addtions:
 - Updated README Checkout testing
 - Updated README Contact us testing
 
-### 6.32 Slideshow function, home page testing complete and breakpoints 
+### 6.32 Slideshow function, home page testing complete and breakpoints
 
 Additions:
 
 - Functional Slideshow
 - Home page breakpoints finished
 - Updated README Home page testing
+
+### 6.33 Expand/Collapse button functional, Updated README wireframe images
+
+Additions:
+
+- Expand and collapse button works
+- Updated README Wireframes
+- Wireframe images
 
 ## 7.0 Deployment
 
