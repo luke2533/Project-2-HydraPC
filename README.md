@@ -200,10 +200,10 @@ Github is used as a repository to upload the project to
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ----------------------------------------------------------------- | --------- |
-| Slideshow | Left and right buttons | Fail |
+| Slideshow | Left and right buttons and auto slide | Pass |
 | Build PC button | Links to custom PC page | Pass |
 | Pre-built PC's | Links to checkout | Pass |
-| Breakpoints | Responsive to all devices | Fail |
+| Breakpoints | Responsive to all devices | Pass |
 
 ### 5.5 Build your PC
 
@@ -557,6 +557,14 @@ Addtions:
 - Updated README Checkout testing
 - Updated README Contact us testing
 
+### 6.32 Slideshow function, home page testing complete and breakpoints 
+
+Additions:
+
+- Functional Slideshow
+- Home page breakpoints finished
+- Updated README Home page testing
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project locally/logically
@@ -699,4 +707,7 @@ Addtions:
 - Medium.com radio button filters using jQuery - [Medium.com filters](https://medium.com/js-dojo/getting-the-selected-radio-button-with-jquery-filter-aabbb22a61bc)
 - Side-bar using CSS - [Sidebar](https://blog.hubspot.com/website/css-sidebar)
 - W3Schools carousel bootstrap - [Carousel JS](https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp)
+
+- W3Schools carousel javaScript - [Carousel JS](https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_ref_js_carousel_interval)
+
 - Stack overflow rotating image with hover - [How to rotate image](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)

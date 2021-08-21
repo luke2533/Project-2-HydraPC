@@ -282,6 +282,26 @@ footer {
 
 /* Slideshow */
 
+#slide-nvidia{
+  color: #76B900;
+}
+
+.slide-background{
+  background-color: rgba(204, 197, 196, 0.3);
+  width: 70%;
+}
+
+.slide-title{
+  color: white;
+  font-size: 3em;
+  text-shadow: 0 0 10px black;
+}
+
+.slide-text{
+  color: white;
+  font-size: 2em;
+  text-shadow: 0 0 10px black;
+}
 
 
 /* Slideshow     END */
@@ -711,6 +731,9 @@ footer {
   .footer-col-mobile{
     display: none;
   }
+  .carousel-mobile{
+    display: none;
+  }
   /* Small mobile custom PC page breakpoints */
     .pc-spec-img{
       width: 150px;
@@ -730,7 +753,6 @@ footer {
       width: 60%;
     }
   /* Small mobile custom PC page breakpoints  END */
-
 }
 
 @media screen and (min-width: 424px){
@@ -755,7 +777,9 @@ footer {
   .footer-col-s-mobile{
     display: none;
   }
-
+  .carousel-s-mobile{
+    display: none;
+  }
 
 }
 
@@ -791,6 +815,9 @@ footer {
   .build-desktop{
     display:none;
   }
+  .carousel-tablet{
+    display: none;
+  }
   /* Mobile custom PC page breakpoints */
     .pc-spec-img{
       width: 190px;
@@ -811,6 +838,12 @@ footer {
     }
   /* Mobile custom PC page breakpoints  END */
 
+  /* Mobile slide show */
+  .slides{
+    height: 300px;
+  }
+
+  /* Mobile slide show    END */
 }
 
 @media screen and (min-width: 767px){
@@ -844,7 +877,14 @@ footer {
   .build-mobile{
     display:none;
   }
-
+  .carousel-mobile{
+    display: none;
+  }
+  /* Tablet slide show */
+  .slides{
+    height: 550px;
+  }
+  /* Tablet slide show    END */
 
 }
 
@@ -887,6 +927,11 @@ footer {
   .pc-card-tablet{
     display: none;
   }
+  /* Desktop slide show */
+  .slides{
+    height: 700px;
+  }
+  /* Desktop slide show    END */
 }
 
 
@@ -919,7 +964,9 @@ footer {
   .footer-col-desktop{
     display: none;
   }
-
+  .carousel-desktop{
+    display: none;
+  }
 
 }
 
@@ -948,7 +995,9 @@ footer {
   .footer-col-tablet{
     display: none;
   }
-
+  .carousel-tablet{
+    display: none;
+  }
 
 }
 
