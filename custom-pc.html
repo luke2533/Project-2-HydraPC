@@ -200,31 +200,49 @@
         <div class="container-fluid">
           <div class="custom-sidebar">
             <!-- custom-desktop custom-tablet custom-mobile custom-s-mobile -->
-            <div class="row justify-content-center">
-              <h3 id="build-title">Build your custom PC</h3>
-              <div class="spec-tracker" id="usersPC" name="customPc">
-                <h4 id="customPc-case"></h4>
-                <h4 id="customPc-cpu"></h4>
-                <h4 id="customPc-gpu"></h4>
-                <h4 id="customPc-motherboard"></h4>
-                <h4 id="customPc-ram"></h4>
-                <h4 id="customPc-pcu"></h4>
-                <h4 id="customPc-ssd"></h4>
-                <h4 id="customPc-m-2"></h4>
-                <h4 id="customPc-hdd"></h4>
-              </div>
-              <div class="price-tracker">
-                <!-- <input id="totalCost" type="text" readonly> -->
-                <h4 id="totalCost"></h4>
-              </div>
-            </div>
+            <form onsubmit="return sendMail(this);">
+              <div class="row justify-content-center">
+                <h3 id="build-title">Build your custom PC</h3>
+                <div class="spec-tracker" id="usersPC">
+                  <h4 id="customPc-case"></h4>
+                  <input type="hidden" name="case" value="" id="case">
 
-            <div class="row justify-content-center">
-              <button type="button" onclick="window.location.href='checkout.html'" class="hydra-btn">Checkout</button>
-              <button type="button" class="hydra-btn" onclick="collapse()">Collapse all</button>
-              <button type="button" class="hydra-btn" onclick="expand()">Expand all</button>
-              <br>
-              <form onsubmit="return sendMail(this);">
+                  <h4 id="customPc-cpu"></h4>
+                  <input type="hidden" name="cpu" value="" id="cpu">
+
+                  <h4 id="customPc-gpu"></h4>
+                  <input type="hidden" name="gpu" value="" id="gpu">
+
+                  <h4 id="customPc-motherboard"></h4>
+                  <input type="hidden" name="motherboard" value="" id="motherboard">
+
+                  <h4 id="customPc-ram"></h4>
+                  <input type="hidden" name="ram" value="" id="ram">
+
+                  <h4 id="customPc-pcu"></h4>
+                  <input type="hidden" name="pcu" value="" id="pcu">
+
+                  <h4 id="customPc-ssd"></h4>
+                  <input type="hidden" name="ssd" value="" id="ssd">
+
+                  <h4 id="customPc-m-2"></h4>
+                  <input type="hidden" name="m2" value="" id="m2">
+
+                  <h4 id="customPc-hdd"></h4>
+                  <input type="hidden" name="hdd" value="" id="hdd">
+
+                </div>
+                <div class="price-tracker">
+                  <h4 id="totalCost"></h4>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <button type="button" onclick="goToCheckOut()" class="hydra-btn">Checkout</button>
+                <button type="button" class="hydra-btn" onclick="collapse()">Collapse</button>
+                <button type="button" class="hydra-btn" onclick="expand()">Expand</button>
+                <br>
+              <!-- <form onsubmit="return sendMail(this);"> -->
                 <input type="text" placeholder="Enter your name here" name="name" class="custom-form">
                 <br>
 
@@ -251,7 +269,7 @@
         <div id="accordion">
 
           <div class="card" id="case-card">
-            <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseCase">
+            <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseCase" aria-expanded="false" aria-controls="collapseExample">
               <h2>Pick your case - </h2>
             </button>
 
@@ -1171,11 +1189,22 @@
       <!-- Small mobible footer     END -->
     </footer>
 
-
-  <!-- <script src="assets/js/bpc-custom-pc.js"></script> -->
-  <!-- <script src="assets/js/bpc-price-tracker.js"></script> -->
-  <script src="assets/js/collapse.js"></script>
   <script src="assets/js/customSendEmail.js"></script>
   <script src="assets/js/customPc.js"></script>
+  <script>
+    function goToCheckOut() {
+      let totalCost = document.getElementById('totalCost').innerHTML;
+      window.location.href='checkout.html?totalCost='+totalCost;
+    }
+  </script>
+  <script>
+    function expand() {
+       $(".collapse").collapse("show");
+    }
+    function collapse() {
+      $(".collapse").collapse("hide");
+    }
+  </script>
+
   </body>
 </html>

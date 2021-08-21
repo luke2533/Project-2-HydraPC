@@ -262,10 +262,10 @@ Github is used as a repository to upload the project to
 | Test  | Expected result | Pass/Fail |
 | --------------- | ----------------------------------------------------------------- | --------- |
 | Checkout button | Links user to checkout page | Pass |
-| Collapse all / Expand all button | Collapse or Expands all sections | Fail |
+| Collapse / Expand button | Collapse or Expands pc part sections | Pass |
 | Input boxes work | The user can enter their details | Pass |
-| Submit button | When the user clicks the submit button it sends the user an email | Fail |
-| EmailJS | The user is sent an email with their custom PC | Fail |
+| Submit button | When the user clicks the submit button it sends the user an email | Pass |
+| EmailJS | The user is sent an email with their custom PC | Pass |
 | Part subsections | Expand and collapse when clicked | Pass |
 | Part selected | Selected part displays on part tracker | Pass |
 | Change in part selected | Changed part replaces old part | Pass |
@@ -291,8 +291,8 @@ Github is used as a repository to upload the project to
 | Input boxes work | The user can enter their details | Pass |
 | Alert for required boxes | User is alerted if they need to fill in box | Pass |
 | Submit button | When the user clicks the submit button it sends the user an email | Pass |
-| EmailJS | The user is sent an email with their order summary | Fail |
-| Shipping cost | The user selects a shipping cost added to their total cost | Fail |
+| EmailJS | The user is sent an email with their order summary | Pass |
+| Shipping cost | The user selects a shipping cost added to their total cost | Pass |
 | Breakpoints | Responsive to all devices | Pass |
 
 ## 6.0 Development life cycle
@@ -624,6 +624,15 @@ Additions:
 - Expand and collapse button works
 - Updated README Wireframes
 - Wireframe images
+
+### 6.34 Checkout total price, EmailJS checkout and save PC functional, README updated
+
+Additions:
+
+- Checkout total price Functional
+- EmailJS checkout summary Functional
+- EmailJS save custom PC Functional
+- Updated README testing
 
 ## 7.0 Deployment
 

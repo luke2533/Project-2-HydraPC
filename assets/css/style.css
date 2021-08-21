@@ -576,6 +576,11 @@ footer {
   color: #A239CA;
 }
 
+#totalCost{
+  font-size: 2em;
+  font-family: "Orbitron", sans-serif;
+}
+
 .checkout-form{
   display: flex;
   justify-content: center;
@@ -584,7 +589,7 @@ footer {
   margin: 5px;
   background-color: #0E0B16;
   color: white;
-
+  align-items: center;
 }
 
 .checkout-form input{
@@ -595,21 +600,19 @@ footer {
 .checkout-product{
   margin: 5px;
   border: black solid 1px;
-  padding: 50px;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 20px;
   background-color: #0E0B16;
   color: white;
   text-align: center;
 }
 
+
 .billing-form{
   margin: 3px;
   background-color: #CCC5C4;
-}
-
-.product{
-  border: 1px solid white;
-  text-align: center;
-  /* Remove for final version */
 }
 
 .checkout-total{
@@ -716,12 +719,7 @@ footer {
   .pc-card-mobile{
     display: none;
   }
-  .checkout-form-mobile{
-    display: none;
-  }
-  .checkout-product-mobile{
-    display: none;
-  }
+
   .contact-box-mobile{
     display: none;
   }
@@ -771,12 +769,7 @@ footer {
   .pc-card-s-mobile{
     display: none;
   }
-  .checkout-form-s-mobile{
-    display: none;
-  }
-  .checkout-product-s-mobile{
-    display: none;
-  }
+
   .contact-box-s-mobile{
     display: none;
   }
@@ -806,12 +799,7 @@ footer {
   .pc-card-tablet{
     display: none;
   }
-  .checkout-form-tablet{
-    display:none;
-  }
-  .checkout-product-tablet{
-    display:none;
-  }
+
   .contact-box-tablet{
     display: none;
   }
@@ -871,12 +859,7 @@ footer {
   .pc-card-mobile{
     display: none;
   }
-  .checkout-form-mobile{
-    display: none;
-  }
-  .checkout-product-mobile{
-    display: none;
-  }
+
   .contact-box-mobile{
     display: none;
   }
@@ -964,12 +947,7 @@ footer {
   .pc-card-desktop{
     display: none;
   }
-  .checkout-form-desktop{
-    display:none;
-  }
-  .checkout-product-desktop{
-    display:none;
-  }
+
   .contact-box-desktop{
     display: none;
   }
@@ -994,12 +972,6 @@ footer {
   }
   .pc-card-laptop{
     display: none;
-  }
-  .checkout-form-tablet{
-    display:none;
-  }
-  .checkout-product-tablet{
-    display:none;
   }
   .contact-box-tablet{
     display: none;

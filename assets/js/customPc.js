@@ -61,16 +61,12 @@ for (var i = 0; i < buildPc.length; i++) {
         console.log(value);
         specTracker();
         totalCost();
-
+        savePc()
         }
       }
     })
     $(this).prop("checked");
   };
-
-
-
-
 
 function specTracker() {
   $("#customPc-case").html(customPc["case"]);
@@ -82,6 +78,18 @@ function specTracker() {
   $("#customPc-ssd").html(customPc["ssd"]);
   $("#customPc-m-2").html(customPc["m-2"]);
   $("#customPc-hdd").html(customPc["hdd"]);
+}
+
+function savePc(){
+  $("#case").val(customPc["case"]);
+  $("#cpu").val(customPc["cpu"]);
+  $("#gpu").val(customPc["gpu"]);
+  $("#motherboard").val(customPc["motherboard"]);
+  $("#ram").val(customPc["ram"]);
+  $("#pcu").val(customPc["pcu"]);
+  $("#ssd").val(customPc["ssd"]);
+  $("#m2").val(customPc["m-2"]);
+  $("#hdd").val(customPc["hdd"]);
 }
 
 function totalCost() {

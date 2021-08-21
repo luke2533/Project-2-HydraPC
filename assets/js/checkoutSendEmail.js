@@ -8,7 +8,8 @@ function sendMail(orderForm) {
     "town" : orderForm.town.value,
     "zip" : orderForm.zip.value,
     "phone" : orderForm.phone.value,
-    "email" :orderForm.email.value
+    "email" : orderForm.email.value,
+    "order" : orderForm.order.value
   })
   .then(
     function(response) {
