@@ -142,6 +142,7 @@ Text will be in Noto Sans TC:
 ### 2.4 Wireframes
 
 [Wireframe pdf](assets/wireframe/Hydra-pc-wireframe.pdf)
+[Checkout wireframe pdf](assets/wireframe/Hydra-pc-checkout.pdf)
 
 Home desktop wireframe
 
@@ -192,6 +193,56 @@ Contact us mobile wireframe
 ![Contact us page mobile](assets/wireframe/Contact-us-mobile.png)
 
 ### 2.5 Mockups
+
+[Mock-up pdf](assets/mockups/Hydra-pc-mockup.pdf)
+
+Home page desktop mock up
+
+![Home page desktop](assets/mockups/Home-desktop.png)
+
+Home page tablet mock up
+
+![Home page tablet](assets/mockups/Home-tablet.png)
+
+Home page mobile mock up
+
+![Home page mobile](assets/mockups/Home-mobile.png)
+
+Build PC page desktop mock up
+
+![Build PC page desktop](assets/mockups/Build-PC-desktop.png)
+
+Build PC page tablet mock up
+
+![Build PC page tablet](assets/mockups/Build-PC-tablet.png)
+
+Build PC page mobile mock up
+
+![Build PC page mobile](assets/mockups/Build-PC-mobile.png)
+
+Checkout page desktop mock up
+
+![Checkout page desktop](assets/mockups/Checkout-desktop.png)
+
+Checkout page tablet mock up
+
+![Checkout page tablet](assets/mockups/Checkout-tablet.png)
+
+Checkout page mobile mock up
+
+![Checkout page mobile](assets/mockups/Checkout-mobile.png)
+
+Contact us page desktop mock up
+
+![Contact us page desktop](assets/mockups/Contact-desktop.png)
+
+Contact us page tablet mock up
+
+![Contact us page tablet](assets/mockups/Contact-tablet.png)
+
+Contact us page mobile mock up
+
+![Contact us page mobile](assets/mockups/Contact-mobile.png)
 
 ## 3.0 Features
 
@@ -691,6 +742,13 @@ Additions:
 Additions:
 
 - Table of contents
+
+### 6.38 README Mock-ups and file
+
+Additions:
+
+- Mock-ups
+- Mock-up file, pdf and images
 
 ## 7.0 Deployment
 

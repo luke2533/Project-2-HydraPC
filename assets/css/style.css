@@ -416,7 +416,7 @@ footer {
   position: fixed;
   float: left;
   overflow: hidden;
-  top: 1px;
+  top: -1;
   left: 0px;
   margin-bottom: 20px;
   padding-top: 40px;
