@@ -757,6 +757,12 @@ Additions:
 
 - README deployment
 
+### 6.40 GitHub pages
+
+Additions:
+
+- Hydra PC's deployed to GitHub pages
+
 ## 7.0 Deployment
 
 ### 7.1 Local deployment
@@ -781,6 +787,8 @@ To upload the project these steps where taken:
 4. Select a folder then click save
 
 The project is published to GitHub pages
+
+[Hydra PC's](https://luke2533.github.io/Project-2-HydraPC/)
 
 ## 8.0 Credits
 
