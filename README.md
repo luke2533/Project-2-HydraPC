@@ -2,6 +2,41 @@
 
 Hydra PC’s is a computer hardware store with a focus for custom bespoke gaming PC’s where users can pick and choose parts for their personal needs. The project's goals are to deliver a streamlined storefront for users to build up a PC from case to storage with a part tracker and price tracker to accompany it updating after each part is selected in the form of a list. The user can then go to checkout to complete their order or save the computer's specs by saving it by sending an email to them with the list of parts they chose.
 
+## Table of contents
+
+* [1.0 UX](#10-ux)
+    + [1.1 User goals](#11-user-goals)
+    + [1.2 User needs and goals](#12-user-needs-and-goals)
+      - [1.2.1 User needs:](#121-user-needs-)
+      - [1.2.2 How the user needs are met](#122-how-the-user-needs-are-met)
+    + [1.3 Developer and business goals](#13-developer-and-business-goals)
+      - [1.3.1 Goals of the business](#131-goals-of-the-business)
+    + [1.4 User stories](#14-user-stories)
+  * [2.0 Design choices](#20-design-choices)
+    + [2.4 Wireframes](#24-wireframes)
+    + [2.5 Mockups](#25-mockups)
+  * [3.0 Features](#30-features)
+    + [3.1 Existing features](#31-existing-features)
+    + [3.2 Features left to implement](#32-features-left-to-implement)
+  * [4.0 Technologies used](#40-technologies-used)
+  * [5.0 Testing](#50-testing)
+    + [5.1 Code validator](#51-code-validator)
+    + [5.2 Nav-bar](#52-nav-bar)
+    + [5.3 Footer](#53-footer)
+    + [5.4 Home page](#54-home-page)
+    + [5.5 Build your PC](#55-build-your-pc)
+    + [5.6 Contact us](#56-contact-us)
+    + [5.7 Checkout](#57-checkout)
+  * [6.0 Development life cycle](#60-development-life-cycle)
+  * [7.0 Deployment](#70-deployment)
+    + [7.1 How to run this project locally/logically](#71-how-to-run-this-project-locally-logically)
+    + [7.2 GitHub links](#72-github-links)
+  * [8.0 Credits](#80-credits)
+    + [8.1 Content](#81-content)
+    + [8.2 Code](#82-code)
+
+  <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## 1.0 UX
 
 ### 1.1 User goals
@@ -650,6 +685,12 @@ Additions:
 - Tested all HTML files using W3C Markup validator
 - Tested all CSS files using W3C CSS validator
 - Tested all JS files using JSHint validator
+
+### 6.37 README table of contents added
+
+Additions:
+
+- Table of contents
 
 ## 7.0 Deployment
 
