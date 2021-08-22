@@ -9,15 +9,9 @@ function sendMail(contactForm) {
     function(response) {
       console.log("success", response);
       alert("Email sent");
-      // grab each elementbyid and cleatr interval
-      // Remove alert with div that goes from block to none
     },
     function(error) {
-      console.log("failed", error)
+      console.log("failed", error);
     });
     return false;
   }
-
-// code institiute not yet documented
-
-// Test note: failed to work due to inccorect service ID (gmail was wrong)

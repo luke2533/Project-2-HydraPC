@@ -1,4 +1,4 @@
-// This is where you add price tracker and pc tracker
+// CustomPC stores the users parts
 var customPc = {
   "case": "",
   "cpu": "",
@@ -9,8 +9,9 @@ var customPc = {
   "ssd":"",
   "m-2":"",
   "hdd":"",
-}
+};
 
+//  The selected parts prices are stored here
 var customCost = {
   "case": "",
   "cpu": "",
@@ -21,9 +22,9 @@ var customCost = {
   "ssd":"",
   "m-2":"",
   "hdd":"",
-}
+};
 
-buildPc = [
+var buildPc = [
   ["case", "input[name='case']", "customPc-case", "Case: ", "data-price"],
   ["cpu", "input[name='cpu']", "customPc-cpu", "Cpu: ", "data-price"],
   ["gpu", "input[name='gpu']", "customPc-gpu", "Gpu: ", "data-price"],
@@ -35,39 +36,26 @@ buildPc = [
   ["hdd", "input[name='hdd']", "customPc-hdd", "HDD: ", "data-price"]
 ];
 
-
-
 for (var i = 0; i < buildPc.length; i++) {
   var $generalSpec = $(buildPc[i][1]);
-  // var $specCost = $(buildPc[i][4]);
 
   $generalSpec.change(function(value){
-    /* All code below here */
-    console.log(value.target.name);
 
     for (var i = 0; i < buildPc.length; i++){
       if (buildPc[i][0] == value.target.name) {
-        // Get buildPc contents and populate in div side menu
+
         customCost[value.target.name] = value.target.dataset.price;
-
-        console.log(value.target.dataset.price);
-        // console.log(value.target.dataPrice);
-
-        // Place whatever contents you want to the menu now from list above
         customPc[value.target.name] = value.target.value;
-
-        console.log(customCost);
-        console.log(buildPc[i]);
-        console.log(value);
         specTracker();
         totalCost();
-        savePc()
+        savePc();
         }
       }
-    })
+    });
     $(this).prop("checked");
-  };
+  }
 
+// Adds the selected parts to the sidebar
 function specTracker() {
   $("#customPc-case").html(customPc["case"]);
   $("#customPc-cpu").html(customPc["cpu"]);
@@ -80,6 +68,7 @@ function specTracker() {
   $("#customPc-hdd").html(customPc["hdd"]);
 }
 
+// The selected parts compliled to emailJS
 function savePc(){
   $("#case").val(customPc["case"]);
   $("#cpu").val(customPc["cpu"]);
@@ -92,6 +81,7 @@ function savePc(){
   $("#hdd").val(customPc["hdd"]);
 }
 
+// Adds the users parts together for total price
 function totalCost() {
   var caseC = Number(customCost["case"]);
   var cpu = Number(customCost["cpu"]);

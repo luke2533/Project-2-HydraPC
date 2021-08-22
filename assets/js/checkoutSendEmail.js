@@ -17,7 +17,7 @@ function sendMail(orderForm) {
       alert("Email sent");
     },
     function(error) {
-      console.log("failed", error)
+      console.log("failed", error);
     });
     return false;
   }

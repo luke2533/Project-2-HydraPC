@@ -218,9 +218,9 @@ Github is used as a repository to upload the project to
 
 | Test  | Expected result | Pass/Fail |
 | --------------- | ----------------------------------------------------------------- | --------- |
-| HTML validator | All pages pass the validator |  |
-| CSS validator | All pages pass the validator |  |
-| JS validator | All pages pass the validator |  |
+| HTML W3C validator | All pages pass the validator | Pass |
+| CSS W3C validator | All pages pass the validator | Pass |
+| JS JSHint validator | All pages pass the validator | Pass |
 
 ### 5.2 Nav-bar
 
@@ -642,6 +642,15 @@ Additions:
 - Custom PC page breakpoints complete
 - Updated README testing
 
+### 6.36 Tested / Validated all files and updated README
+
+Additions:
+
+- Updated README testing
+- Tested all HTML files using W3C Markup validator
+- Tested all CSS files using W3C CSS validator
+- Tested all JS files using JSHint validator
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project locally/logically
@@ -784,7 +793,6 @@ Additions:
 - Medium.com radio button filters using jQuery - [Medium.com filters](https://medium.com/js-dojo/getting-the-selected-radio-button-with-jquery-filter-aabbb22a61bc)
 - Side-bar using CSS - [Sidebar](https://blog.hubspot.com/website/css-sidebar)
 - W3Schools carousel bootstrap - [Carousel JS](https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp)
-
 - W3Schools carousel javaScript - [Carousel JS](https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_ref_js_carousel_interval)
-
 - Stack overflow rotating image with hover - [How to rotate image](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
+- Checkout.html total cost slack

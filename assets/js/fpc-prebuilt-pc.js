@@ -1,3 +1,4 @@
+// Pre built PCs for home page
 
 const prePC = {
     prePC1 : {
@@ -269,13 +270,13 @@ const prePC = {
 
     }
 
-}
+};
 
 
 // Slack
 
 for (var pc in prePC) {
-  htmlContents = "";
+  var htmlContents = "";
   for (var tag in prePC[pc]) {
     htmlContents += prePC[pc][tag];
   }

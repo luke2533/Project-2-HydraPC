@@ -10,8 +10,7 @@ function sendMail(customForm) {
     "pcu" : customForm.pcu.value,
     "ssd" : customForm.ssd.value,
     "m2" : customForm.m2.value,
-    "hdd" : customForm.hdd.value  
-    // Need to get custom PC object
+    "hdd" : customForm.hdd.value
   })
   .then(
     function(response) {
@@ -19,7 +18,7 @@ function sendMail(customForm) {
       alert("Email sent");
     },
     function(error) {
-      console.log("failed", error)
+      console.log("failed", error);
     });
     return false;
   }

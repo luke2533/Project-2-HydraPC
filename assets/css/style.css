@@ -26,12 +26,11 @@ footer {
   display: block;
 }
 
-
 /* Genral     END*/
 
 /* Genral nav bar */
 
-#nav-title{
+.nav-title{
   margin: 5px;
   margin-top: 24px;
   font-size: 3.5em;
@@ -39,16 +38,16 @@ footer {
   transition: 0.5s ease-in-out;
 }
 
-#nav-title:hover{
+.nav-title:hover{
   color: #4717F6;
 }
 
-#nav-title-2{
+.nav-title-2{
   color: #4717F6;
   transition: 0.5s ease-in-out;
 }
 
-#nav-title-2:hover{
+.nav-title-2:hover{
   color: white;
 }
 
@@ -90,19 +89,15 @@ footer {
 /* https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover*/
 
 .nav-link{
-  /* background-color: #A239CA; */
   font-family: "Noto Sans TC", sans-serif;
   color: white;
-  /* width: 125px; */
   height: 50px;
   padding: 10px;
   margin: 5px;
   margin-top: 35px;
   justify-content: center;
-  /* border: solid 1px white; */
   align-content: center;
   box-shadow: 5px 5px 10px #A239CA;
-  /* Add white background as the hover */
 }
 
 .nav-link:hover{
@@ -132,7 +127,7 @@ footer {
 
 /* Tablet nav bar */
 
-#nav-title-tablet{
+.nav-title-tablet{
   margin: 5px;
   margin-top: 20px;
   font-size: 2em;
@@ -140,16 +135,16 @@ footer {
   transition: 0.5s ease-in-out;
 }
 
-#nav-title-tablet:hover{
+.nav-title-tablet:hover{
   color: #4717F6;
 }
 
-#nav-title-tablet-2{
+.nav-title-tablet-2{
   color: #4717F6;
   transition: 0.5s ease-in-out;
 }
 
-#nav-title-tablet-2:hover{
+.nav-title-tablet-2:hover{
   color: white;
 }
 
@@ -202,7 +197,7 @@ footer {
   justify-content: space-evenly;
 }
 
-#nav-title-mobile{
+.nav-title-mobile{
   margin: 5px;
   margin-top: 10px;
   font-size: 2em;
@@ -210,16 +205,16 @@ footer {
   transition: 0.5s ease-in-out;
 }
 
-#nav-title-mobile:hover{
+.nav-title-mobile:hover{
   color: #4717F6;
 }
 
-#nav-title-mobile-2{
+.nav-title-mobile-2{
   color: #4717F6;
   transition: 0.5s ease-in-out;
 }
 
-#nav-title-mobile-2:hover{
+.nav-title-mobile-2:hover{
   color: white;
 }
 
@@ -303,19 +298,17 @@ footer {
   text-shadow: 0 0 10px black;
 }
 
-
 /* Slideshow     END */
 
 /* Desktop home page custom PC */
 
-#build-title{
+.build-title{
   display: flex;
   justify-content: center;
   font-family: "Orbitron", sans-serif;
 }
 
 .build-here{
-  /* background-color: lightgrey; */
   border: black 1px solid;
   color: white;
   padding: 25px;
@@ -345,7 +338,6 @@ footer {
 
 .top-pc{
   margin: 10px;
-
 }
 
 .pc-card{
@@ -358,7 +350,7 @@ footer {
   padding: 5px;
   margin: 5px;
   box-shadow: 5px 5px 10px #A239CA;
-  /* Come back to shadowsx */
+  max-width: 450px;
 }
 
 .top-pcs-desktop{
@@ -424,8 +416,8 @@ footer {
   position: fixed;
   float: left;
   overflow: hidden;
-  top: -1;
-  left: 0;
+  top: 1px;
+  left: 0px;
   margin-bottom: 20px;
   padding-top: 40px;
   padding: 5px;
@@ -488,19 +480,17 @@ footer {
   justify-content: center;
 }
 
+.btn-title{
+  font-size: 2em;
+}
+
 .build-pc{
   width: 80%;
   margin-right: 0px;
-
 }
 
 .card-body{
   background-color: #0E0B16;
-
-}
-
-.spec-list{
-/* For the div that surronds each part section */
 }
 
 .spec-name{
@@ -508,14 +498,12 @@ footer {
 }
 
 .spec{
-  /* FOR the radio buttons for each part */
   position: relative;
   height: 25px;
   width: 25px;
   background-color: #eee;
   border-radius: 50%;
   margin: 5px;
-
 }
 
 .spec-cost{
@@ -544,7 +532,7 @@ footer {
 
 /* Contact Us  */
 
-#contact-submit{
+.contact-submit{
   padding: 10px;
 }
 
@@ -615,7 +603,6 @@ footer {
   text-align: center;
 }
 
-
 .billing-form{
   margin: 3px;
   background-color: #CCC5C4;
@@ -628,7 +615,6 @@ footer {
 }
 
 /* Desktop checkout   END */
-
 
 /* Desktop footer */
 
@@ -683,8 +669,6 @@ footer {
 .footer-custom-col-tablet{
   margin-top: 10px;
 }
-
-
 
 /* Tablet footer      END */
 
@@ -792,7 +776,9 @@ footer {
   .carousel-mobile{
     display: none;
   }
+
   /* Small mobile custom PC page breakpoints */
+
     h4{
       font-size: 0.8em;
     }
@@ -858,7 +844,6 @@ footer {
   .carousel-s-mobile{
     display: none;
   }
-
 }
 
 /* Small devices (mobile)     END*/
@@ -878,7 +863,6 @@ footer {
   .pc-card-tablet{
     display: none;
   }
-
   .contact-box-tablet{
     display: none;
   }
@@ -891,7 +875,9 @@ footer {
   .carousel-tablet{
     display: none;
   }
+
   /* Mobile custom PC page breakpoints */
+
     h4{
       font-size: 0.5em;
     }
@@ -924,9 +910,11 @@ footer {
     .price-tracker{
       font-size: 0.8em;
     }
+
   /* Mobile custom PC page breakpoints  END */
 
   /* Mobile slide show */
+
   .slides{
     height: 300px;
   }
@@ -947,7 +935,6 @@ footer {
   .pc-card-mobile{
     display: none;
   }
-
   .contact-box-mobile{
     display: none;
   }
@@ -963,10 +950,13 @@ footer {
   .carousel-mobile{
     display: none;
   }
+
   /* Tablet slide show */
+
   .slides{
     height: 550px;
   }
+
   /* Tablet slide show    END */
 }
 
@@ -981,7 +971,9 @@ footer {
   .pc-card-laptop{
     display: none;
   }
+
   /* Tablet custom PC page breakpoints */
+
     h3{
       font-size: 1.5em;
     }
@@ -1006,7 +998,9 @@ footer {
     .spec-tracker{
       max-height: 375px;
     }
+
 /* Tablet custom PC page breakpoints  END */
+
 }
 @media screen and (min-width: 1023px){
   .nav-tablet{
@@ -1015,13 +1009,16 @@ footer {
   .pc-card-tablet{
     display: none;
   }
+
   /* Desktop slide show */
+
   .slides{
     height: 700px;
   }
-  /* Desktop slide show    END */
-}
 
+  /* Desktop slide show    END */
+
+}
 
 /* Large devices (laptop)     END*/
 
@@ -1040,7 +1037,6 @@ footer {
   .pc-card-desktop{
     display: none;
   }
-
   .contact-box-desktop{
     display: none;
   }
@@ -1050,7 +1046,9 @@ footer {
   .carousel-desktop{
     display: none;
   }
+
   /* Tablet custom PC page breakpoints */
+
     h3{
       font-size: 1.5em;
     }
@@ -1075,6 +1073,7 @@ footer {
     .spec-tracker{
       max-height: 375px;
     }
+
 /* Tablet custom PC page breakpoints  END */
 
 }
@@ -1101,7 +1100,6 @@ footer {
   .carousel-tablet{
     display: none;
   }
-
 
 }
 
