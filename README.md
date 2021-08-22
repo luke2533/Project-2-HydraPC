@@ -142,6 +142,7 @@ Text will be in Noto Sans TC:
 ### 2.4 Wireframes
 
 [Wireframe pdf](assets/wireframe/Hydra-pc-wireframe.pdf)
+
 [Checkout wireframe pdf](assets/wireframe/Hydra-pc-checkout.pdf)
 
 Home desktop wireframe
@@ -750,11 +751,36 @@ Additions:
 - Mock-ups
 - Mock-up file, pdf and images
 
+### 6.39 README Deployment
+
+Additions:
+
+- README deployment
+
 ## 7.0 Deployment
 
-### 7.1 How to run this project locally/logically
+### 7.1 Local deployment
 
-### 7.2 GitHub links
+This project was developed on Atom.
+
+To create the project these steps where taken:
+
+1. Create a new repository through atom
+2. Connect the repository to GitHub account
+3. Create necessary files to write code in
+4. All code written locally (on atom) will need to be pushed to GitHub
+5. Once connected to GitHub stage, commit and push files / code to GitHub repository
+
+### 7.2 GitHub page deployment
+
+To upload the project these steps where taken:
+
+1. Go to the projects repository
+2. Click on settings and scroll down to GitHub pages
+3. Select a branch
+4. Select a folder then click save
+
+The project is published to GitHub pages
 
 ## 8.0 Credits
 
