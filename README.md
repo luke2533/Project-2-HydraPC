@@ -1,5 +1,7 @@
 # Hydra PC's - Project 2
 
+https://luke2533.github.io/Project-2-HydraPC/
+
 Hydra PC’s is a computer hardware store with a focus for custom bespoke gaming PC’s where users can pick and choose parts for their personal needs. The project's goals are to deliver a streamlined storefront for users to build up a PC from case to storage with a part tracker and price tracker to accompany it updating after each part is selected in the form of a list. The user can then go to checkout to complete their order or save the computer's specs by saving it by sending an email to them with the list of parts they chose.
 
 ## Table of contents
